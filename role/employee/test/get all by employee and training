@@ -1,0 +1,38 @@
+NB: 
+- untuk mengambil semua test di training tertentu pada user tertentu
+
+
+url      : http://localhost:{port}/api/employee/test
+type     : GET
+params   : {
+    "employee_id": 1,
+    "training": "2",
+}
+
+
+RESPONSE
+--------
+{
+	"code": 200,
+	"status": "OK",
+	"data": [
+        {
+            "id": 1,
+            "material": "Private Victory",
+            "date_available": "12 September 2020",
+            "date_closed": "14 September 2020",
+            "time_limit": "20 menit",
+            "score": 0,
+        },
+        {
+            "id": 2,
+            "material": "Public Victory",
+            "date_available": "17 September 2020",
+            "date_closed": "18 September 2020",
+            "time_limit": "30 menit",
+            "score": 60,
+        },
+    ],
+	"paging": null,
+	"errors": null,
+}

@@ -1,0 +1,31 @@
+NB: 
+- untuk mengambil semua notifikasi pada pegawai tertentu
+
+
+url      : http://localhost:{port}/api/employee/notification
+type     : GET
+params   : {
+    "employee_id": 1,
+}
+
+
+RESPONSE
+--------
+{
+	"code": 200,
+	"status": "OK",
+	"data": [
+        {
+            "id": 1,
+            "title": "Reminder - Training,
+            "message": "Haloo Albert, ingat lho 2 minggu lagi kamu ada training 1 di Wisma Rahayu. Tepatnya pada tanggal 15 September 2020. Untuk lebih detailnya, cek jadwal di halaman training ya!",
+        },
+        {
+            "id": 2,
+            "title": "Reminder - Training,
+            "message": "Haloo Albert, ingat lho 2 minggu lagi kamu ada training 1 di Wisma Rahayu. Tepatnya pada tanggal 15 September 2020. Untuk lebih detailnya, cek jadwal di halaman training ya!",
+        },
+    ],
+	"paging": null,
+	"errors": null,
+}

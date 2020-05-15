@@ -1,0 +1,52 @@
+NB: 
+- untuk mengambil detail data training pada pegawai tertentu
+- juga untuk melihat pegawai siapa saja yang akan ikut di training ini
+
+
+url      : http://localhost:{port}/api/employee/training
+type     : GET
+params   : {
+    "employee_id": 1,
+    "trainig_id": 4,
+}
+
+
+RESPONSE
+--------
+{
+	"code": 200,
+	"status": "OK",
+	"data": {
+        "training": {
+            "id": 1,
+            "training": 4,
+            "date": "15 September 2020",
+            "time_start": "08.00 WIB",
+            "time_finish": "16.00 WIB",
+            "trainer": "Rudi Santoso",
+            "location": "di Gedung Serbaguna, Ruang 315 C Sarana Jaya",
+        },
+        "employees": {
+            "total": "86",
+            "employee": [
+                {
+                    "id": 1,
+                    "name": "Rendi Orton",
+                    "position": "Sales Manager",
+                },
+                {
+                    "id": 2,
+                    "name": "Denny Laoli",
+                    "position": "Supervisor Business",
+                },
+                {
+                    "id": 3,
+                    "name": "Diana Permata",
+                    "position": "Akuntan",
+                },
+            ],
+        },
+    },
+	"paging": null,
+	"errors": null,
+}

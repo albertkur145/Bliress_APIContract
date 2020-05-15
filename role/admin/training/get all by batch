@@ -1,0 +1,54 @@
+NB: 
+- untuk mengambil semua data training yang terdaftar di batch tertentu
+
+
+url      : http://localhost:{port}/api/admin/training
+type     : GET
+params   : {
+    "batch_id": 1,
+}
+
+
+RESPONSE
+--------
+{
+	"code": 200,
+	"status": "OK",
+	"data": [
+        "batch": {
+            "id": 1,
+            "batch": "1",
+        },
+        "training": [
+            {
+                "id": 1,
+                "training": 1,
+                "date": "15 September 2020",
+                "time_start": "08.00 WIB",
+                "time_finish": "16.00 WIB",
+                "trainer": "Rudi Santoso",
+                "location": "di Gedung Serbaguna, Ruang 315 C Sarana Jaya",
+            },
+            {
+                "id": 2,
+                "training": 2,
+                "date": "27 September 2020",
+                "time_start": "12.00 WIB",
+                "time_finish": "15.00 WIB",
+                "trainer": "Alvin Wijaya",
+                "location": "di Gedung Ropoko, Ruang 54 Sarana Jaya",
+            },
+            {
+                "id": 2,
+                "training": 3,
+                "date": "04 Oktober 2020",
+                "time_start": "09.00 WIB",
+                "time_finish": "18.00 WIB",
+                "trainer": "Renzvin",
+                "location": "di Hotel British, Lt. 42 Ruang Anggrek",
+            },
+        ],
+    ],
+	"paging": null,
+	"errors": null,
+}

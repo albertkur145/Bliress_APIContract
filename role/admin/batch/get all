@@ -1,0 +1,27 @@
+NB: 
+- untuk mengambil semua data batch
+
+
+url      : http://localhost:{port}/api/admin/batch
+type     : GET
+params   : -
+
+
+RESPONSE
+--------
+{
+	"code": 200,
+	"status": "OK",
+	"data": [
+        {   
+            "id"    : 1,
+		    "batch" : "1",
+        },
+        {   
+            "id"    : 2,
+		    "batch" : "2",
+        },
+    ],
+	"paging": null,
+	"errors": null,
+}

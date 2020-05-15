@@ -1,0 +1,19 @@
+NB: 
+- untuk menambah batch baru
+
+
+url      : http://localhost:{port}/api/admin/batch
+type     : POST
+params   : {
+    "batch": 1,
+}
+
+RESPONSE
+--------
+{
+	"code": 200,
+	"status": "OK",
+	"data": null,
+    "paging": null,
+    "errors": null,
+}

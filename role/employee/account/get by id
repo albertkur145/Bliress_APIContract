@@ -1,0 +1,30 @@
+NB: 
+- untuk mengambil detail data pegawai tertentu
+
+
+url      : http://localhost:{port}/api/employee/account
+type     : GET
+params   : {
+    "employee_id": 1,
+}
+
+
+RESPONSE
+--------
+{
+	"code": 200,
+	"status": "OK",
+	"data": {
+        "id": 1,
+        "card_id": "BLI-22D9D6",
+        "batch": "2",
+        "name": "Albert Kurniawan",
+        "email": "albertkur@gmail.com",
+        "number_phone": "081995561257",
+        "position": "Software Developer",
+        "birthdate": "21/08/1995",
+        "gender": "Pria",
+    },
+	"paging": null,
+	"errors": null,
+}

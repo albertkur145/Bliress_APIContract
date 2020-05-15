@@ -1,0 +1,42 @@
+NB: 
+- untuk mengambil soal-soal test pada materi tertentu
+
+
+url      : http://localhost:{port}/api/employee/test/question
+type     : GET
+params   : {
+    "material_id": 3,
+    "employee_id": 1,
+}
+
+
+RESPONSE
+--------
+{
+	"code": 200,
+	"status": "OK",
+	"data": {
+        "id": 1,
+        "question": "Apa yang Anda ketahui dengan gaya relatif pada topik ini?",
+        "choice": [
+            {
+                "id": 1,
+                "text": "Gaya gerak jemu",
+            },
+            {
+                "id": 2,
+                "text": "Posisi yang tetap",
+            },
+            {
+                "id": 3,
+                "text": "Tidak memihak pada siapapun",
+            },
+            {
+                "id": 4,
+                "text": "Semua salah",
+            },
+        ],
+    },
+	"paging": 1,
+	"errors": null,
+}

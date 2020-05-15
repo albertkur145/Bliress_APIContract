@@ -1,0 +1,20 @@
+NB: 
+- untuk menghapus batch tertentu
+
+
+url      : http://localhost:{port}/api/admin/batch
+type     : DELETE
+params   : {
+    "id": 4,
+}
+
+
+RESPONSE
+--------
+{
+	"code": 200,
+	"status": "OK",
+	"data": null,
+    "paging": null,
+    "errors": null,
+}
