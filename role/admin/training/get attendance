@@ -1,0 +1,46 @@
+NB: 
+- untuk mengambil semua pegawai yang sudah/belum melakukan absensi di training tertentu
+
+
+url      : http://localhost:{port}/api/admin/training/attendance
+type     : GET
+params   : {
+    "batch": 2,
+    "training": 1,
+}
+
+
+RESPONSE
+--------
+{
+	"code": 200,
+	"status": "OK",
+	"data": [
+        "batch": {
+            "id": 1,
+            "batch": "1",
+        },
+        "employee": [
+            {
+                "id": 1,
+                "card_id": "BLI-1153AD",
+                "name": "Albert Kurniawan",
+                "status": 1,
+            },
+            {
+                "id": 2,
+                "card_id": "BLI-1953OP",
+                "name": "Rio Gunawan",
+                "status": 0,
+            },
+            {
+                "id": 3,
+                "card_id": "BLI-D885A1",
+                "name": "Maudy Ayunda",
+                "status": 1,
+            },
+        ],
+    ],
+	"paging": null,
+	"errors": null,
+}
