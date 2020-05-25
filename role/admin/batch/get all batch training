@@ -1,0 +1,55 @@
+NB: 
+- untuk mengambil semua data batch dan training yang ada di dalamnya.
+
+
+url      : http://localhost:{port}/api/admin/batchtraining
+type     : GET
+params   : -
+
+
+RESPONSE
+--------
+{
+	"code": 200,
+	"status": "OK",
+	"data": [
+        {   
+            "id"    : 1,
+		    "batch" : "1",
+            "training": [
+                {
+                    "id": 1,
+                    "training": 1,
+                },
+                {
+                    "id": 2,
+                    "training": 2,
+                },
+                {
+                    "id": 3,
+                    "training": 3,
+                },
+            ],
+        },
+        {   
+            "id"    : 2,
+		    "batch" : "2",
+            "training": [
+                {
+                    "id": 1,
+                    "training": 1,
+                },
+                {
+                    "id": 2,
+                    "training": 2,
+                },
+                {
+                    "id": 3,
+                    "training": 3,
+                },
+            ],
+        },
+    ],
+	"paging": null,
+	"errors": null,
+}

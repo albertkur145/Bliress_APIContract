@@ -7,7 +7,7 @@ url      : http://localhost:{port}/api/employee/training
 type     : GET
 params   : {
     "employee_id": 1,
-    "trainig_id": 4,
+    "training": "4",
 }
 
 
@@ -25,6 +25,8 @@ RESPONSE
             "time_finish": "16.00 WIB",
             "trainer": "Rudi Santoso",
             "location": "di Gedung Serbaguna, Ruang 315 C Sarana Jaya",
+            "material_name": "Think Win Win",
+            "material_link": "link download",
         },
         "employees": {
             "total": "86",

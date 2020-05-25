@@ -5,6 +5,7 @@ NB:
 url      : http://localhost:{port}/api/admin/batch/add/employee
 type     : POST
 params   : {
+    "batch": "2",
     "employees": [
         {
             "id": 1,

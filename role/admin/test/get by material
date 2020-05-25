@@ -1,0 +1,75 @@
+NB: 
+- untuk mengambil soal-soal test di materi tertentu pada training dan batch tertentu.
+
+
+url      : http://localhost:{port}/api/admin/test/preview
+type     : GET
+params   : {
+    "batch": "2",
+    "training": "4",
+    "material_id": 1,
+}
+
+
+RESPONSE
+--------
+{
+	"code": 200,
+	"status": "OK",
+	"data": {
+        "batch" : "2",
+        "training": "4",
+        "material": {
+            "id": 1,
+            "name": "Think Win Win",
+            "questions": [
+                {
+                    "question_text": "Sebagian pedagang pecel lele mengeluhkan harga cabe naik. Pak Rudi seorang pedagang pecel lele.",
+                    "choices": [
+                        {
+                            "choice": "1",
+                            "answer": "Pak Rudi pasti mengeluhkan harga cabe naik.",
+                        },
+                        {
+                            "choice": "2",
+                            "answer": "Pak Rudi tidak mengeluhkan harga cabe naik.",
+                        },
+                        {
+                            "choice": "3",
+                            "answer": "Harga cabe bukanlah keluhan Pak Rudi.",
+                        },
+                        {
+                            "choice": "4",
+                            "answer": "Pak Rudi mungkin ikut mengeluhkan harga cabe naik.",
+                        },
+                    ],
+                    "correct_answer": "4",
+                },
+                {
+                    "question_text": "Semua pemain sepakbola yang berkebangsaan Itali berwajah tampan. David Beckham adalah pemain sepakbola berkebangsaan Inggris.",
+                    "choices": [
+                        {
+                            "choice": "1",
+                            "answer": "David Beckham bukanlah pemain sepakbola yang tampan.",
+                        },
+                        {
+                            "choice": "2",
+                            "answer": "David Beckham adalah pemain sepakbola yang tampan.",
+                        },
+                        {
+                            "choice": "3",
+                            "answer": "Meskipun bukan berkebangsaan Italia, David Beckham pasti berwajah tampan.",
+                        },
+                        {
+                            "choice": "4",
+                            "answer": "Tidak dapat ditarik kesimpulan.",
+                        },
+                    ],
+                    "correct_answer": "4",
+                },
+            ],
+        },
+    },
+	"paging": null,
+	"errors": null,
+}

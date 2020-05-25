@@ -15,28 +15,50 @@ RESPONSE
 {
 	"code": 200,
 	"status": "OK",
-	"data": {
-        "id": 1,
-        "question": "Apa yang Anda ketahui dengan gaya relatif pada topik ini?",
-        "choice": [
-            {
-                "id": 1,
-                "text": "Gaya gerak jemu",
-            },
-            {
-                "id": 2,
-                "text": "Posisi yang tetap",
-            },
-            {
-                "id": 3,
-                "text": "Tidak memihak pada siapapun",
-            },
-            {
-                "id": 4,
-                "text": "Semua salah",
-            },
-        ],
-    },
-	"paging": 1,
+	"data": [
+        {
+            "question_text": "Sebagian pedagang pecel lele mengeluhkan harga cabe naik. Pak Rudi seorang pedagang pecel lele.",
+            "choices": [
+                {
+                    "choice": "1",
+                    "answer": "Pak Rudi pasti mengeluhkan harga cabe naik.",
+                },
+                {
+                    "choice": "2",
+                    "answer": "Pak Rudi tidak mengeluhkan harga cabe naik.",
+                },
+                {
+                    "choice": "3",
+                    "answer": "Harga cabe bukanlah keluhan Pak Rudi.",
+                },
+                {
+                    "choice": "4",
+                    "answer": "Pak Rudi mungkin ikut mengeluhkan harga cabe naik.",
+                },
+            ],
+        },
+        {
+            "question_text": "Semua pemain sepakbola yang berkebangsaan Itali berwajah tampan. David Beckham adalah pemain sepakbola berkebangsaan Inggris.",
+            "choices": [
+                {
+                    "choice": "1",
+                    "answer": "David Beckham bukanlah pemain sepakbola yang tampan.",
+                },
+                {
+                    "choice": "2",
+                    "answer": "David Beckham adalah pemain sepakbola yang tampan.",
+                },
+                {
+                    "choice": "3",
+                    "answer": "Meskipun bukan berkebangsaan Italia, David Beckham pasti berwajah tampan.",
+                },
+                {
+                    "choice": "4",
+                    "answer": "Tidak dapat ditarik kesimpulan.",
+                },
+            ],
+        },
+    ],
+	"paging": null,
 	"errors": null,
 }

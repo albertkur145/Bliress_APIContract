@@ -1,0 +1,73 @@
+NB: 
+- untuk mengubah test tertentu pada sebuah materi di batch dan training tertentu
+
+
+url      : http://localhost:{port}/api/admin/test
+type     : PUT
+params   : {
+    "batch": "2",
+    "training": "4",
+    "material": "2",
+    "test": {
+        "available": "15/02/2020",
+        "closed": "18/02/2020",
+        "time_limit": 20,
+        "question": [
+            {
+                "question_text": "Apa yang dimaksud dengan gerak bumi?",
+                "choices": [
+                    {
+                        "choice": "1",
+                        "answer": "Gaya yang bergerak di bumi",
+                    },
+                    {
+                        "choice": "2",
+                        "answer": "Gerak yang putus asa",
+                    },
+                    {
+                        "choice": "3",
+                        "answer": "Dunia yang bergerak",
+                    },
+                    {
+                        "choice": "4",
+                        "answer": "Semua salah",
+                    },
+                ],
+                "correct_answer": "4",
+            },
+            {
+                "question_text": "Apa yang dikelola oleh Blibli?",
+                "choices": [
+                    {
+                        "choice": "1",
+                        "answer": "Makanan",
+                    },
+                    {
+                        "choice": "2",
+                        "answer": "Minuman",
+                    },
+                    {
+                        "choice": "3",
+                        "answer": "Snack",
+                    },
+                    {
+                        "choice": "4",
+                        "answer": "Daging hidup",
+                    },
+                ],
+                "correct_answer": "1",
+            },
+        ],
+    },
+}
+
+
+RESPONSE
+--------
+{
+	"code": 200,
+	"status": "OK",
+	"data": null,
+    "paging": null,
+    "errors": null,
+}

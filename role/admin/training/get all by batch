@@ -5,7 +5,7 @@ NB:
 url      : http://localhost:{port}/api/admin/training
 type     : GET
 params   : {
-    "batch_id": 1,
+    "batch": 5,
 }
 
 
@@ -17,7 +17,7 @@ RESPONSE
 	"data": [
         "batch": {
             "id": 1,
-            "batch": "1",
+            "batch": "5",
         },
         "training": [
             {

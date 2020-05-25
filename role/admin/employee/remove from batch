@@ -5,6 +5,7 @@ NB:
 url      : http://localhost:{port}/api/admin/batch/remove/employee
 type     : DELETE
 params   : {
+    "batch": "4",
     "employees": [
         {
             "id": 1,
