@@ -1,17 +1,15 @@
 NB: 
-- untuk menambah akun pegawai baru pada sistem
+- untuk mengubah akun trainer tertentu pada sistem
 
 
 url      : http://localhost:{port}/api/admin/employee
-type     : POST
+type     : PUT
 params   : {
+    "id": "5",
     "name": "Albert Kurniawan",
     "email": "albertkur@gmail.com",
     "password": "123456",
-    "phone_number": "087855261005",
     "division": "Sales Manager",
-    "birthdate": "2020/10/02",
-    "gender": "Pria",
 }
 
 

@@ -21,7 +21,7 @@ RESPONSE
         "name": "Albert Kurniawan",
         "email": "albertkur@gmail.com",
         "number_phone": "081995561257",
-        "position": "Software Developer",
+        "division": "Software Developer",
         "birthdate": "21/08/1995",
         "gender": "Pria",
     },
