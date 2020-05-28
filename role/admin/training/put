@@ -2,7 +2,7 @@ NB:
 - untuk mengubah training tertentu yang ada di batch tertentu
 
 
-url      : http://localhost:{port}/api/admin/training
+url      : http://localhost:{port}/api/admin/batch/training
 type     : PUT
 params   : {
     "id": 1,

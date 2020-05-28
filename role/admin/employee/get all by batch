@@ -2,7 +2,7 @@ NB:
 - untuk mengambil semua data pegawai yang terdaftar di batch tertentu
 
 
-url      : http://localhost:{port}/api/admin/batch
+url      : http://localhost:{port}/api/admin/batch/employee
 type     : GET
 params   : {
     "batch": 1,

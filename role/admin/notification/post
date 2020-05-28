@@ -1,0 +1,22 @@
+NB: 
+- untuk mengirim notifikasi kepada batch tertentu
+
+
+url      : http://localhost:{port}/api/admin/notification
+type     : POST
+params   : {
+    "to": "Batch 2",
+    "title": "PENGUMUMAN",
+    "message": "Pengumuman ditujukan kepada batch 3....",
+}
+
+
+RESPONSE
+--------
+{
+	"code": 200,
+	"status": "OK",
+	"data": null,
+    "paging": null,
+    "errors": null,
+}

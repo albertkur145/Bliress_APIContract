@@ -1,0 +1,31 @@
+NB: 
+- untuk mengambil data training tertentu.
+
+
+url      : http://localhost:{port}/api/admin/batch/training
+type     : GET
+params   : {
+    "batch": "5",
+    "training": "4",
+}
+
+
+RESPONSE
+--------
+{
+	"code": 200,
+	"status": "OK",
+	"data": {
+        "id": 1,
+        "training": 1,
+        "date": "2020/09/15",
+        "time_start": "08.00 WIB",
+        "time_finish": "16.00 WIB",
+        "trainer": "Rudi Santoso",
+        "location": "di Gedung Serbaguna, Ruang 315 C Sarana Jaya",
+        "material_name": "Time Management",
+        "material_link": "path download materi",
+    },
+	"paging": null,
+	"errors": null,
+}

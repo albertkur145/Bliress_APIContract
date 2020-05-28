@@ -2,7 +2,7 @@ NB:
 - untuk mengambil soal-soal test pada materi tertentu
 
 
-url      : http://localhost:{port}/api/employee/test/question
+url      : http://localhost:{port}/api/test/training/question
 type     : GET
 params   : {
     "material_id": 3,

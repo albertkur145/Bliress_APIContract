@@ -1,0 +1,20 @@
+NB: 
+- untuk menghapus akun pegawai tertentu pada sistem
+
+
+url      : http://localhost:{port}/api/admin/employee
+type     : DELETE
+params   : {
+    "id": 5,
+}
+
+
+RESPONSE
+--------
+{
+	"code": 200,
+	"status": "OK",
+	"data": null,
+    "paging": null,
+    "errors": null,
+}

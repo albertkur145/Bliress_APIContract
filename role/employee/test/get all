@@ -1,0 +1,53 @@
+NB: 
+- untuk mengambil semua test pada user tertentu
+- syarat status available adalah ketika user sudah ikut training dan absensi,
+  artinya user tersebut sudah punya izin untuk melakukan test per materi di training tersebut.
+
+
+url      : http://localhost:{port}/api/test
+type     : GET
+params   : {
+    "employee_id": 1,
+}
+
+
+RESPONSE
+--------
+{
+	"code": 200,
+	"status": "OK",
+	"data": [
+        {
+            "id": 1,
+            "training": "1",
+            "status": "Available",
+        },
+        {
+            "id": 2,
+            "training": "2",
+            "status": "Available",
+        },
+        {
+            "id": 3,
+            "training": "3",
+            "status": "Closed",
+        },
+        {
+            "id": 4,
+            "training": "4",
+            "status": "Closed",
+        },
+        {
+            "id": 5,
+            "training": "5",
+            "status": "Closed",
+        },
+        {
+            "id": 6,
+            "training": "6",
+            "status": "Closed",
+        },
+    ],
+	"paging": null,
+	"errors": null,
+}

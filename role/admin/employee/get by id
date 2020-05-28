@@ -1,0 +1,29 @@
+NB: 
+- untuk mengambil data pegawai tertentu
+
+
+url      : http://localhost:{port}/api/admin/employee
+type     : GET
+params   : {
+    "id": "4",
+}
+
+
+RESPONSE
+--------
+{
+	"code": 200,
+	"status": "OK",
+	"data": {
+        "id": 1,
+        "card_id": "BLI-1154AD",
+        "name": "Albert Kurniawan",
+        "email": "albertkur@gmail.com",
+        "phone_number": "087855261005",
+        "position": "Sales Manager",
+        "birthdate": "2020/10/01",
+        "gender": "Pria",
+    },
+	"paging": null,
+	"errors": null,
+}

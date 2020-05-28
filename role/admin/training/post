@@ -2,7 +2,7 @@ NB:
 - untuk menambah training pada batch tertentu
 
 
-url      : http://localhost:{port}/api/admin/training
+url      : http://localhost:{port}/api/admin/batch/training
 type     : POST
 params   : {
     "batch": "4",

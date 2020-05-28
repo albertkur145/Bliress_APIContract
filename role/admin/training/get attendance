@@ -2,7 +2,7 @@ NB:
 - untuk mengambil semua pegawai yang sudah/belum melakukan absensi di training tertentu
 
 
-url      : http://localhost:{port}/api/admin/training/attendance
+url      : http://localhost:{port}/api/admin/batch/training/attendance
 type     : GET
 params   : {
     "batch": 2,

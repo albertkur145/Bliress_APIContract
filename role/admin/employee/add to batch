@@ -2,7 +2,7 @@ NB:
 - untuk menambahkan pegawai pada batch tertentu (bukan create pegawai)
 
 
-url      : http://localhost:{port}/api/admin/batch/add/employee
+url      : http://localhost:{port}/api/admin/batch/employee
 type     : POST
 params   : {
     "batch": "2",

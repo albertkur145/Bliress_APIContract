@@ -2,7 +2,7 @@ NB:
 - untuk mengambil semua data training pada pegawai tertentu
 
 
-url      : http://localhost:{port}/api/employee/training
+url      : http://localhost:{port}/api/training
 type     : GET
 params   : {
     "employee_id": 1,

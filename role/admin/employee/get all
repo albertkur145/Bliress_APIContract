@@ -1,0 +1,34 @@
+NB: 
+- untuk mengambil semua data pegawai yang terdaftar pada sistem
+
+
+url      : http://localhost:{port}/api/admin/employee
+type     : GET
+params   : -
+
+
+RESPONSE
+--------
+{
+	"code": 200,
+	"status": "OK",
+	"data": [
+        {
+            "id": 1,
+            "card_id": "BLI-1154AD",
+            "name": "Albert Kurniawan",
+        },
+        {
+            "id": 2,
+            "card_id": "BLI-1953OP",
+            "name": "Muhammad Taufan Okka",
+        },
+        {
+            "id": 3,
+            "card_id": "BLI-D885A1",
+            "name": "Simon Samosir",
+        },
+    ],
+	"paging": null,
+	"errors": null,
+}

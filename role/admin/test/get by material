@@ -19,6 +19,9 @@ RESPONSE
 	"data": {
         "batch" : "2",
         "training": "4",
+        "available": "2020/09/15",
+        "closed": "2020/09/18",
+        "time_limit": "20",
         "material": {
             "id": 1,
             "name": "Think Win Win",

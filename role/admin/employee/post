@@ -1,0 +1,25 @@
+NB: 
+- untuk menambah akun pegawai baru pada sistem
+
+
+url      : http://localhost:{port}/api/admin/employee
+type     : POST
+params   : {
+    "name": "Albert Kurniawan",
+    "email": "albertkur@gmail.com",
+    "phone_number": "087855261005",
+    "position": "Sales Manager",
+    "birthdate": "2020/10/02",
+    "gender": "Pria",
+}
+
+
+RESPONSE
+--------
+{
+	"code": 200,
+	"status": "OK",
+	"data": null,
+    "paging": null,
+    "errors": null,
+}

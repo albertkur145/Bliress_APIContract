@@ -2,7 +2,7 @@ NB:
 - untuk menghapus training tertentu yang ada di batch tertentu
 
 
-url      : http://localhost:{port}/api/admin/training
+url      : http://localhost:{port}/api/admin/batch/training
 type     : DELETE
 params   : { 
     "batch": "4",

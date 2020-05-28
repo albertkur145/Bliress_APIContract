@@ -1,0 +1,31 @@
+NB: 
+- untuk mengambil semua data trainer yang terdaftar pada sistem
+
+
+url      : http://localhost:{port}/api/admin/trainer
+type     : GET
+params   : -
+
+
+RESPONSE
+--------
+{
+	"code": 200,
+	"status": "OK",
+	"data": [
+        {
+            "id": 1,
+            "name": "Albert Kurniawan",
+        },
+        {
+            "id": 2,
+            "name": "Muhammad Taufan Okka",
+        },
+        {
+            "id": 3,
+            "name": "Simon Samosir",
+        },
+    ],
+	"paging": null,
+	"errors": null,
+}

@@ -2,7 +2,7 @@ NB:
 - untuk mengambil semua test di training tertentu pada user tertentu
 
 
-url      : http://localhost:{port}/api/employee/test
+url      : http://localhost:{port}/api/test/training
 type     : GET
 params   : {
     "employee_id": 1,

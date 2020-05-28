@@ -2,24 +2,11 @@ NB:
 - untuk menghapus pegawai pada batch tertentu (bukan delete pegawai)
 
 
-url      : http://localhost:{port}/api/admin/batch/remove/employee
+url      : http://localhost:{port}/api/admin/batch/employee
 type     : DELETE
 params   : {
     "batch": "4",
-    "employees": [
-        {
-            "id": 1,
-        },
-        {
-            "id": 2,
-        },
-        {
-            "id": 3,
-        },
-        {
-            "id": 4,
-        },
-    ],
+    "employees_id": "2",
 }
 
 

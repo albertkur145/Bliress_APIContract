@@ -2,7 +2,7 @@ NB:
 - untuk mengambil semua notifikasi pada pegawai tertentu
 
 
-url      : http://localhost:{port}/api/employee/notification
+url      : http://localhost:{port}/api/notification
 type     : GET
 params   : {
     "employee_id": 1,

@@ -1,0 +1,33 @@
+NB: 
+- untuk mengambil semua data notifikasi yang sudah berhasil dikirim.
+
+
+url      : http://localhost:{port}/api/admin/notificaton
+type     : GET
+params   : -
+
+
+RESPONSE
+--------
+{
+	"code": 200,
+	"status": "OK",
+	"data": [
+        {
+            "id": 1,
+            "title": "PENGUMUMAN",
+            "to": "Batch 1",
+            "message": "Dalam mengikuti training 2, diharapkan setiap peserta training membawa kebutuhan masing-masing seperti alat tulis, laptop, ataupun peralatan mandi lainnya. Terimakasih.",
+            "date": "12/03/2020, 09.00 WIB",
+        },
+        {
+            "id": 2,
+            "title": "PENGUMUMAN",
+            "to": "Batch 4",
+            "message": "Dalam mengikuti training 4, diharapkan setiap peserta training pas foto 3x4 sebanyak 2 lembar dan 6x4 sebanyak 4 lembar. Terimakasih.",
+            "date": "12/04/2020, 10.00 WIB",
+        },
+    ],
+	"paging": null,
+	"errors": null,
+}
