@@ -19,12 +19,20 @@ RESPONSE
         "id": 1,
         "training": 1,
         "date": "2020/09/15",
-        "time_start": "08.00 WIB",
-        "time_finish": "16.00 WIB",
+        "timeStart": "08.00 WIB",
+        "timeFinish": "16.00 WIB",
         "trainer": "Rudi Santoso",
         "location": "di Gedung Serbaguna, Ruang 315 C Sarana Jaya",
-        "material_name": "Time Management",
-        "material_link": "path download materi",
+        "materials": [
+            {
+                "name": "Think Win Win",
+                "link": "link download"
+            },
+            {
+                "name": "Time Management",
+                "link": "link download"
+            },
+        ],
     },
 	"paging": null,
 	"errors": null,

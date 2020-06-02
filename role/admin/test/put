@@ -11,10 +11,10 @@ params   : {
     "test": {
         "available": "15/02/2020",
         "closed": "18/02/2020",
-        "time_limit": 20,
+        "timeLimit": 20,
         "question": [
             {
-                "question_text": "Apa yang dimaksud dengan gerak bumi?",
+                "questionText": "Apa yang dimaksud dengan gerak bumi?",
                 "choices": [
                     {
                         "choice": "1",
@@ -33,10 +33,10 @@ params   : {
                         "answer": "Semua salah",
                     },
                 ],
-                "correct_answer": "4",
+                "correctAnswer": "4",
             },
             {
-                "question_text": "Apa yang dikelola oleh Blibli?",
+                "questionText": "Apa yang dikelola oleh Blibli?",
                 "choices": [
                     {
                         "choice": "1",
@@ -55,7 +55,7 @@ params   : {
                         "answer": "Daging hidup",
                     },
                 ],
-                "correct_answer": "1",
+                "correctAnswer": "1",
             },
         ],
     },

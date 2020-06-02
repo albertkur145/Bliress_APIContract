@@ -5,8 +5,8 @@ NB:
 url      : http://localhost:{port}/api/test/training/question
 type     : GET
 params   : {
-    "material_id": 3,
-    "employee_id": 1,
+    "materialId": 3,
+    "employeeId": 1,
 }
 
 
@@ -17,7 +17,7 @@ RESPONSE
 	"status": "OK",
 	"data": [
         {
-            "question_text": "Sebagian pedagang pecel lele mengeluhkan harga cabe naik. Pak Rudi seorang pedagang pecel lele.",
+            "questionText": "Sebagian pedagang pecel lele mengeluhkan harga cabe naik. Pak Rudi seorang pedagang pecel lele.",
             "choices": [
                 {
                     "choice": "1",
@@ -38,7 +38,7 @@ RESPONSE
             ],
         },
         {
-            "question_text": "Semua pemain sepakbola yang berkebangsaan Itali berwajah tampan. David Beckham adalah pemain sepakbola berkebangsaan Inggris.",
+            "questionText": "Semua pemain sepakbola yang berkebangsaan Itali berwajah tampan. David Beckham adalah pemain sepakbola berkebangsaan Inggris.",
             "choices": [
                 {
                     "choice": "1",

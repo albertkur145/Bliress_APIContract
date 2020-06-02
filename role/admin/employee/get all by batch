@@ -22,17 +22,17 @@ RESPONSE
         "employee": [
             {
                 "id": 1,
-                "card_id": "BLI-1154AD",
+                "cardId": "BLI-1154AD",
                 "name": "Albert Kurniawan",
             },
             {
                 "id": 2,
-                "card_id": "BLI-1953OP",
+                "cardId": "BLI-1953OP",
                 "name": "Muhammad Taufan Okka",
             },
             {
                 "id": 3,
-                "card_id": "BLI-D885A1",
+                "cardId": "BLI-D885A1",
                 "name": "Simon Samosir",
             },
         ],

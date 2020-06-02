@@ -16,11 +16,11 @@ RESPONSE
 	"status": "OK",
 	"data": {
         "id": 1,
-        "card_id": "BLI-1154AD",
+        "cardId": "BLI-1154AD",
         "name": "Albert Kurniawan",
         "email": "albertkur@gmail.com",
         "password": "123456",
-        "phone_number": "087855261005",
+        "phoneNumber": "087855261005",
         "division": "Sales Manager",
         "birthdate": "2020/10/01",
         "gender": "Pria",

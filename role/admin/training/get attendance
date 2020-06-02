@@ -23,19 +23,19 @@ RESPONSE
         "employee": [
             {
                 "id": 1,
-                "card_id": "BLI-1153AD",
+                "cardId": "BLI-1153AD",
                 "name": "Albert Kurniawan",
                 "status": 1,
             },
             {
                 "id": 2,
-                "card_id": "BLI-1953OP",
+                "cardId": "BLI-1953OP",
                 "name": "Rio Gunawan",
                 "status": 0,
             },
             {
                 "id": 3,
-                "card_id": "BLI-D885A1",
+                "cardId": "BLI-D885A1",
                 "name": "Maudy Ayunda",
                 "status": 1,
             },

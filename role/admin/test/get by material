@@ -7,7 +7,7 @@ type     : GET
 params   : {
     "batch": "2",
     "training": "4",
-    "material_id": 1,
+    "materialId": 1,
 }
 
 
@@ -21,13 +21,13 @@ RESPONSE
         "training": "4",
         "available": "2020/09/15",
         "closed": "2020/09/18",
-        "time_limit": "20",
+        "timeLimit": "20",
         "material": {
             "id": 1,
             "name": "Think Win Win",
             "questions": [
                 {
-                    "question_text": "Sebagian pedagang pecel lele mengeluhkan harga cabe naik. Pak Rudi seorang pedagang pecel lele.",
+                    "questionText": "Sebagian pedagang pecel lele mengeluhkan harga cabe naik. Pak Rudi seorang pedagang pecel lele.",
                     "choices": [
                         {
                             "choice": "1",
@@ -46,10 +46,10 @@ RESPONSE
                             "answer": "Pak Rudi mungkin ikut mengeluhkan harga cabe naik.",
                         },
                     ],
-                    "correct_answer": "4",
+                    "correctAnswer": "4",
                 },
                 {
-                    "question_text": "Semua pemain sepakbola yang berkebangsaan Itali berwajah tampan. David Beckham adalah pemain sepakbola berkebangsaan Inggris.",
+                    "questionText": "Semua pemain sepakbola yang berkebangsaan Itali berwajah tampan. David Beckham adalah pemain sepakbola berkebangsaan Inggris.",
                     "choices": [
                         {
                             "choice": "1",
@@ -68,7 +68,7 @@ RESPONSE
                             "answer": "Tidak dapat ditarik kesimpulan.",
                         },
                     ],
-                    "correct_answer": "4",
+                    "correctAnswer": "4",
                 },
             ],
         },

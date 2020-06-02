@@ -7,7 +7,7 @@ NB:
 url      : http://localhost:{port}/api/test
 type     : GET
 params   : {
-    "employee_id": 1,
+    "employeeId": 1,
 }
 
 

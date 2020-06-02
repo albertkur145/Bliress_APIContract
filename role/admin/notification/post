@@ -5,7 +5,7 @@ NB:
 url      : http://localhost:{port}/api/admin/notification
 type     : POST
 params   : {
-    "batch_id": "3",
+    "batchId": "3",
     "title": "PENGUMUMAN",
     "message": "Pengumuman ditujukan kepada batch 3....",
 }

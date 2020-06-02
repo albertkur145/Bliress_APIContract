@@ -6,7 +6,7 @@ NB:
 url      : http://localhost:{port}/api/training
 type     : GET
 params   : {
-    "employee_id": 1,
+    "employeeId": 1,
     "training": "4",
 }
 
@@ -21,12 +21,20 @@ RESPONSE
             "id": 1,
             "training": 4,
             "date": "15 September 2020",
-            "time_start": "08.00 WIB",
-            "time_finish": "16.00 WIB",
+            "timeStart": "08.00 WIB",
+            "timeFinish": "16.00 WIB",
             "trainer": "Rudi Santoso",
             "location": "di Gedung Serbaguna, Ruang 315 C Sarana Jaya",
-            "material_name": "Think Win Win",
-            "material_link": "link download",
+            "materials": [
+                {
+                    "name": "Think Win Win",
+                    "link": "link download",
+                },
+                {
+                    "name": "Time Management",
+                    "link": "link download",
+                },
+            ],
         },
         "employees": {
             "total": "86",
@@ -34,17 +42,17 @@ RESPONSE
                 {
                     "id": 1,
                     "name": "Rendi Orton",
-                    "position": "Sales Manager",
+                    "division": "Sales Manager",
                 },
                 {
                     "id": 2,
                     "name": "Denny Laoli",
-                    "position": "Supervisor Business",
+                    "division": "Supervisor Business",
                 },
                 {
                     "id": 3,
                     "name": "Diana Permata",
-                    "position": "Akuntan",
+                    "division": "Akuntan",
                 },
             ],
         },

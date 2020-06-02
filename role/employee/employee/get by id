@@ -5,7 +5,7 @@ NB:
 url      : http://localhost:{port}/api/employee
 type     : GET
 params   : {
-    "employee_id": 1,
+    "employeeId": 1,
 }
 
 
@@ -16,11 +16,11 @@ RESPONSE
 	"status": "OK",
 	"data": {
         "id": 1,
-        "card_id": "BLI-22D9D6",
+        "cardId": "BLI-22D9D6",
         "batch": "2",
         "name": "Albert Kurniawan",
         "email": "albertkur@gmail.com",
-        "number_phone": "081995561257",
+        "phoneNumber": "081995561257",
         "division": "Software Developer",
         "birthdate": "21/08/1995",
         "gender": "Pria",

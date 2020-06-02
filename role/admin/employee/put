@@ -9,7 +9,7 @@ params   : {
     "name": "Albert Kurniawan",
     "email": "albertkur@gmail.com",
     "password": "123456",
-    "phone_number": "087855261005",
+    "phoneNumber": "087855261005",
     "division": "Sales Manager",
     "birthdate": "2020/10/02",
     "gender": "Pria",
