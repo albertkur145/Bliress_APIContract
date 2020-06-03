@@ -19,8 +19,8 @@ RESPONSE
         "id": 1,
         "training": 1,
         "date": "2020/09/15",
-        "timeStart": "08.00 WIB",
-        "timeFinish": "16.00 WIB",
+        "timeStart": "08.00",
+        "timeFinish": "16.00",
         "trainer": "Rudi Santoso",
         "location": "di Gedung Serbaguna, Ruang 315 C Sarana Jaya",
         "materials": [

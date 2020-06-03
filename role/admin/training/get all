@@ -24,8 +24,8 @@ RESPONSE
                 "id": 1,
                 "training": 1,
                 "date": "15 September 2020",
-                "timeStart": "08.00 WIB",
-                "timeFinish": "16.00 WIB",
+                "timeStart": "08.00",
+                "timeFinish": "16.00",
                 "trainer": "Rudi Santoso",
                 "location": "di Gedung Serbaguna, Ruang 315 C Sarana Jaya",
                 "materials": [
@@ -45,8 +45,8 @@ RESPONSE
                 "id": 2,
                 "training": 2,
                 "date": "27 September 2020",
-                "timeStart": "12.00 WIB",
-                "timeFinish": "15.00 WIB",
+                "timeStart": "12.00",
+                "timeFinish": "15.00",
                 "trainer": "Alvin Wijaya",
                 "location": "di Gedung Ropoko, Ruang 54 Sarana Jaya",
                 "materials": [
@@ -66,8 +66,8 @@ RESPONSE
                 "id": 2,
                 "training": 3,
                 "date": "04 Oktober 2020",
-                "timeStart": "09.00 WIB",
-                "timeFinish": "18.00 WIB",
+                "timeStart": "09.00",
+                "timeFinish": "18.00",
                 "trainer": "Renzvin",
                 "location": "di Hotel British, Lt. 42 Ruang Anggrek",
                 "materials": [
