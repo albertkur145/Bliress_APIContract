@@ -25,10 +25,12 @@ RESPONSE
         "location": "di Gedung Serbaguna, Ruang 315 C Sarana Jaya",
         "materials": [
             {
+                "id": 1,
                 "name": "Think Win Win",
                 "link": "link download"
             },
             {
+                "id": 2,
                 "name": "Time Management",
                 "link": "link download"
             },

@@ -1,0 +1,25 @@
+NB: 
+- untuk mengupload file materi pada training di batch tertentu.
+
+
+url      : http://localhost:{port}/api/admin/material
+type     : POST
+params   : {
+    "batch": "3",
+    "training": "1",
+    "material": {
+        "name": "Time Management",
+        "file": "time.pptx",
+    },
+}
+
+
+RESPONSE
+--------
+{
+	"code": 200,
+	"status": "OK",
+	"data": null,
+    "paging": null,
+    "errors": null,
+}

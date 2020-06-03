@@ -30,10 +30,12 @@ RESPONSE
                 "location": "di Gedung Serbaguna, Ruang 315 C Sarana Jaya",
                 "materials": [
                     {
+                        "id" : 1,
                         "name": "Time Management",
                         "link": "link download materi",
                     },
                     {
+                        "id" : 2,
                         "name": "Private Victory",
                         "link": "link download materi",
                     },
@@ -49,10 +51,12 @@ RESPONSE
                 "location": "di Gedung Ropoko, Ruang 54 Sarana Jaya",
                 "materials": [
                     {
+                        "id" : 1,
                         "name": "Time Management",
                         "link": "link download materi",
                     },
                     {
+                        "id" : 2,
                         "name": "Private Victory",
                         "link": "link download materi",
                     },
@@ -68,10 +72,12 @@ RESPONSE
                 "location": "di Hotel British, Lt. 42 Ruang Anggrek",
                 "materials": [
                     {
+                        "id" : 1,
                         "name": "Time Management",
                         "link": "link download materi",
                     },
                     {
+                        "id" : 2,
                         "name": "Private Victory",
                         "link": "link download materi",
                     },
