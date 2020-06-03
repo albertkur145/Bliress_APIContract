@@ -2,7 +2,7 @@ NB:
 - untuk menambah test baru pada sebuah materi di batch dan training tertentu
 
 
-url      : http://localhost:{port}/api/admin/test
+url      : http://localhost:{port}/api/trainer/test
 type     : POST
 params   : {
     "batch": "2",

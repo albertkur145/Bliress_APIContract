@@ -2,7 +2,7 @@ NB:
 - untuk mengambil data pegawai tertentu
 
 
-url      : http://localhost:{port}/api/admin/employee
+url      : http://localhost:{port}/api/admin/employee/detail
 type     : GET
 params   : {
     "id": "4",

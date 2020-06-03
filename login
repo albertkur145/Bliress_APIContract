@@ -20,7 +20,7 @@ RESPONSE
 	    "batch": "2",
 		"name": "Albert Kurniawan",
 		"email": "albertkur@gmail.com",
-		"phone_number": "089957852212",
+		"phoneNumber": "089957852212",
 		"position": "Software Developer",
 		"birthdate": "19/02/1995",
 		"gender": "Pria",

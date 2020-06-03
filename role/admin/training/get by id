@@ -2,7 +2,7 @@ NB:
 - untuk mengambil data training tertentu.
 
 
-url      : http://localhost:{port}/api/admin/batch/training
+url      : http://localhost:{port}/api/admin/batch/training/detail
 type     : GET
 params   : {
     "batch": "5",

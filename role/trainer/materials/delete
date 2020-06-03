@@ -1,0 +1,22 @@
+NB: 
+- untuk menghapus materi pada training di batch tertentu.
+
+
+url      : http://localhost:{port}/api/trainer/material
+type     : DELETE
+params   : {
+    "batch": "3",
+    "training": "1",
+    "materialId": "1",
+}
+
+
+RESPONSE
+--------
+{
+	"code": 200,
+	"status": "OK",
+	"data": null,
+    "paging": null,
+    "errors": null,
+}

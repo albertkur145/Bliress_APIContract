@@ -1,0 +1,48 @@
+NB: 
+- untuk mengambil semua data training pada trainer tertentu
+
+
+url      : http://localhost:{port}/api/trainer/training
+type     : GET
+params   : {
+    "trainerId": 1,
+}
+
+
+RESPONSE
+--------
+{
+	"code": 200,
+	"status": "OK",
+	"data": [
+        {
+            "id": 1,
+            "training": "1",
+            "batch": "2",
+            "date": "15 September 2020",
+            "timeStart": "08.00 WIB",
+            "timeFinish": "15.00 WIB",
+            "location": "di Gedung Serbaguna Basement 1 R.552, Sarana Jaya",
+        },
+        {
+            "id": 2,
+            "training": "2",
+            "batch": "4",
+            "date": "27 September 2020",
+            "timeStart": "08.00 WIB",
+            "timeFinish": "15.00 WIB",
+            "location": "di Gedung Serbaguna Basement 1 R.552, Sarana Jaya",
+        },
+        {
+            "id": 2,
+            "training": "3",
+            "batch": "1",
+            "date": "04 Oktober 2020",
+            "timeStart": "08.00 WIB",
+            "timeFinish": "15.00 WIB",
+            "location": "di Gedung Serbaguna Basement 1 R.552, Sarana Jaya",
+        },
+    ],
+	"paging": null,
+	"errors": null,
+}

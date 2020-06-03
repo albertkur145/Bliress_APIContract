@@ -17,17 +17,17 @@ RESPONSE
 	"data": [
         {
             "id": 1,
-            "training": 1,
+            "training": "1",
             "date": "15 September 2020",
         },
         {
             "id": 2,
-            "training": 2,
+            "training": "2",
             "date": "27 September 2020",
         },
         {
             "id": 2,
-            "training": 3,
+            "training": "3",
             "date": "04 Oktober 2020",
         },
     ],

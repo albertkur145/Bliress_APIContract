@@ -1,9 +1,9 @@
 NB: 
-- untuk menambah test baru pada sebuah materi di batch dan training tertentu
+- untuk mengubah test tertentu pada sebuah materi di batch dan training tertentu
 
 
-url      : http://localhost:{port}/api/admin/test
-type     : POST
+url      : http://localhost:{port}/api/trainer/test
+type     : PUT
 params   : {
     "batch": "2",
     "training": "4",
