@@ -1,8 +1,9 @@
 NB: 
-- untuk mengambil semua test di training tertentu pada user tertentu
+- untuk mengambil semua test di training tertentu pada user tertentu.
+- status sebagai trigger, apakah user sudah pernah kerjain test ini atau belum.
 
 
-url      : http://localhost:{port}/api/test/materials
+url      : http://localhost:{port}/api/test/material
 type     : GET
 params   : {
     "employeeId": 1,
@@ -23,6 +24,7 @@ RESPONSE
             "dateClosed": "14 September 2020",
             "timeLimit": "20 menit",
             "score": 0,
+            "status": 0,
         },
         {
             "id": 2,
@@ -31,6 +33,7 @@ RESPONSE
             "dateClosed": "18 September 2020",
             "timeLimit": "30 menit",
             "score": 60,
+            "status": 1,
         },
     ],
 	"paging": null,
