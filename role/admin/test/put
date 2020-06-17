@@ -7,12 +7,12 @@ type     : PUT
 params   : {
     "batch": "2",
     "training": "4",
-    "materialId": "2",
+    "materialId": 2,
     "test": {
-        "available": "15/02/2020",
-        "closed": "18/02/2020",
+        "available": "2020-02-15",
+        "closed": "2020-02-18",
         "timeLimit": 20,
-        "question": [
+        "questions": [
             {
                 "questionText": "Apa yang dimaksud dengan gerak bumi?",
                 "choices": [

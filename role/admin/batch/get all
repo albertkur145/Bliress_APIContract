@@ -14,12 +14,19 @@ RESPONSE
 	"status": "OK",
 	"data": [
         {   
-            "id"    : 1,
-		    "batch" : "1",
+            "id": 202006,
+		    "batch": "Juni",
+		    "year": 2020,
         },
         {   
-            "id"    : 2,
-		    "batch" : "2",
+            "id"    : 202009,
+		    "batch" : "September",
+		    "year": 2020,
+        },
+        {   
+            "id"    : 202009,
+		    "batch" : "Januari",
+		    "year": 2021,
         },
     ],
 	"paging": null,

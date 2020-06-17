@@ -1,6 +1,5 @@
 NB: 
 - untuk login user
-- response data untuk role admin, cukup id dan role aja
 
 
 url      : http://localhost:{port}/api/login
@@ -17,13 +16,7 @@ RESPONSE
 	"code": 200,
 	"status": "OK",
 	"data": {
-	    "batch": "2",
-		"name": "Albert Kurniawan",
-		"email": "albertkur@gmail.com",
-		"phoneNumber": "089957852212",
-		"position": "Software Developer",
-		"birthdate": "19/02/1995",
-		"gender": "Pria",
+		"id": 1,
 		"role": "Employee"
 	},
 	"paging": null,

@@ -5,7 +5,7 @@ NB:
 url      : http://localhost:{port}/api/admin/batch/training
 type     : GET
 params   : {
-    "batch": 5,
+    "batchId": 202006,
 }
 
 
@@ -14,10 +14,11 @@ RESPONSE
 {
 	"code": 200,
 	"status": "OK",
-	"data": [
+	"data": {
         "batch": {
-            "id": 1,
-            "batch": "5",
+            "id": 202006,
+            "batch": "Juni",
+            "year": 2020,
         },
         "training": [
             {
@@ -63,7 +64,7 @@ RESPONSE
                 ],
             },
             {
-                "id": 2,
+                "id": 3,
                 "training": 3,
                 "date": "04 Oktober 2020",
                 "timeStart": "09.00",
@@ -84,7 +85,7 @@ RESPONSE
                 ],
             },
         ],
-    ],
+    },
 	"paging": null,
 	"errors": null,
 }

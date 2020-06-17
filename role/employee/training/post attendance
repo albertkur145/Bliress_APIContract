@@ -1,0 +1,22 @@
+NB: 
+- untuk melakukan absensi pegawai pada training tertentu.
+
+
+url      : http://localhost:{port}/api/training/attendance
+type     : POST
+params   : {
+    "batch": 2,
+    "training": 1,
+    "employeeId": 1,
+}
+
+
+RESPONSE
+--------
+{
+	"code": 200,
+	"status": "OK",
+	"data": null,
+	"paging": null,
+	"errors": null,
+}

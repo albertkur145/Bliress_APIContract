@@ -5,13 +5,13 @@ NB:
 url      : http://localhost:{port}/api/admin/batch/training
 type     : POST
 params   : {
-    "batch": "4",
+    "batchId": 202006,
     "training": "1",
-    "date": "2020/05/25",
-    "location": "Gedung Maybara, Lt 3 Ruang 215",
-    "timeStart": "06.00",
-    "timeFinish": "18.00",
-    "trainer": "Andi Law",
+    "date": "2020-05-25",
+    "location": "di Gedung Maybara, Lt 3 Ruang 215",
+    "timeStart": "06:00",
+    "timeFinish": "18:00",
+    "trainerId": 1,
 }
 
 

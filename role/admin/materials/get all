@@ -5,8 +5,8 @@ NB:
 url      : http://localhost:{port}/api/admin/material
 type     : GET
 params   : {
+    "batchId": 202006,
     "training": "4",
-    "batch": "2",
 }
 
 

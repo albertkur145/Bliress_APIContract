@@ -5,8 +5,8 @@ NB:
 url      : http://localhost:{port}/api/admin/batch/training/attendance
 type     : GET
 params   : {
-    "batch": 2,
-    "training": 1,
+    "batchId": 202006,
+    "training": "1",
 }
 
 
@@ -15,10 +15,11 @@ RESPONSE
 {
 	"code": 200,
 	"status": "OK",
-	"data": [
+	"data": {
         "batch": {
-            "id": 1,
-            "batch": "1",
+            "id": 202006,
+            "batch": "Juni",
+            "year": 2020,
         },
         "employee": [
             {
@@ -40,7 +41,7 @@ RESPONSE
                 "status": 1,
             },
         ],
-    ],
+    },
 	"paging": null,
 	"errors": null,
 }

@@ -5,7 +5,7 @@ NB:
 url      : http://localhost:{port}/api/admin/batch/detail
 type     : GET
 params   : {
-    "batch": 1,
+    "batchId": 202006,
 }
 
 
@@ -14,29 +14,30 @@ RESPONSE
 {
 	"code": 200,
 	"status": "OK",
-	"data": [
+	"data": {
         "batch": {
-            "id": 1,
-            "batch": "1",
+            "id": 202006,
+            "batch": "Juni",
+            "year": 2020,
         },
         "training": [
             {
                 "id": 1,
-                "training": 1,
+                "training": "1",
                 "date": "15 September 2020",
                 "timeStart": "08.00",
                 "timeFinish": "16.00",
             },
             {
                 "id": 2,
-                "training": 2,
+                "training": "2",
                 "date": "27 September 2020",
                 "timeStart": "12.00",
                 "timeFinish": "15.00",
             },
             {
                 "id": 3,
-                "training": 3,
+                "training": "3",
                 "date": "04 Oktober 2020",
                 "timeStart": "09.00",
                 "timeFinish": "18.00",
@@ -59,7 +60,7 @@ RESPONSE
                 "name": "Simon Samosir",
             },
         ],
-    ],
+    },
 	"paging": null,
 	"errors": null,
 }

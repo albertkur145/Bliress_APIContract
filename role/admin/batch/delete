@@ -5,7 +5,7 @@ NB:
 url      : http://localhost:{port}/api/admin/batch
 type     : DELETE
 params   : {
-    "id": 4,
+    "batchId": 202006,
 }
 
 
