@@ -5,7 +5,7 @@ NB:
 url      : http://localhost:{port}/api/admin/test
 type     : GET
 params   : {
-    "batch": "2",
+    "batchId": 202006,
     "training": "4",
 }
 
@@ -16,7 +16,11 @@ RESPONSE
 	"code": 200,
 	"status": "OK",
 	"data": {
-        "batch" : "2",
+        "batch" : {
+            id: 202006,
+            batch: 'Juni',
+            year: 2020,
+        },
         "training": "4",
         "material": [
             {
