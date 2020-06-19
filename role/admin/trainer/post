@@ -2,7 +2,7 @@ NB:
 - untuk menambah akun trainer baru pada sistem
 
 
-url      : http://localhost:{port}/api/admin/employee
+url      : http://localhost:{port}/api/admin/trainer
 type     : POST
 params   : {
     "name": "Albert Kurniawan",

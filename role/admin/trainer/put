@@ -2,10 +2,10 @@ NB:
 - untuk mengubah akun trainer tertentu pada sistem
 
 
-url      : http://localhost:{port}/api/admin/employee
+url      : http://localhost:{port}/api/admin/trainer
 type     : PUT
 params   : {
-    "id": "5",
+    "id": 5,
     "name": "Albert Kurniawan",
     "email": "albertkur@gmail.com",
     "password": "123456",

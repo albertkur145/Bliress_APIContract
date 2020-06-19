@@ -5,7 +5,7 @@ NB:
 url      : http://localhost:{port}/api/admin/employee/detail
 type     : GET
 params   : {
-    "id": "4",
+    "id": 4,
 }
 
 
@@ -22,8 +22,9 @@ RESPONSE
         "password": "123456",
         "phoneNumber": "087855261005",
         "division": "Sales Manager",
-        "birthdate": "2020/10/01",
+        "birthdate": "2020-12-05",
         "gender": "Pria",
+        "batchId": 202009,
     },
 	"paging": null,
 	"errors": null,

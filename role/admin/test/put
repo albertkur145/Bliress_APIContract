@@ -5,7 +5,7 @@ NB:
 url      : http://localhost:{port}/api/admin/test
 type     : PUT
 params   : {
-    "batch": "2",
+    "batchId": 202006,
     "training": "4",
     "materialId": 2,
     "test": {

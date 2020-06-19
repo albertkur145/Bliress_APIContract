@@ -2,7 +2,7 @@ NB:
 - untuk menghapus akun trainer tertentu pada sistem
 
 
-url      : http://localhost:{port}/api/admin/employee
+url      : http://localhost:{port}/api/admin/trainer
 type     : DELETE
 params   : {
     "id": 5,

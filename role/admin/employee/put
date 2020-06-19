@@ -11,8 +11,9 @@ params   : {
     "password": "123456",
     "phoneNumber": "087855261005",
     "division": "Sales Manager",
-    "birthdate": "2020/10/02",
+    "birthdate": "2020-11-05",
     "gender": "Pria",
+    "batchId": 202009,
 }
 
 
