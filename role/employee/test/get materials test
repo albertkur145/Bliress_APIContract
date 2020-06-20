@@ -1,6 +1,8 @@
 NB: 
 - untuk mengambil semua test di training tertentu pada user tertentu.
 - status sebagai trigger, apakah user sudah pernah kerjain test ini atau belum.
+- data yang di return hanya test yang sudah dibuat admin/trainer
+  jika admin/trainer belum buat test nya, maka materi tersebut tidak perlu di return.
 
 
 url      : http://localhost:{port}/api/test/material
@@ -22,7 +24,7 @@ RESPONSE
             "material": "Private Victory",
             "dateAvailable": "12 September 2020",
             "dateClosed": "14 September 2020",
-            "timeLimit": "20 menit",
+            "timeLimit": 20,
             "score": 0,
             "status": 0,
         },
@@ -31,7 +33,7 @@ RESPONSE
             "material": "Public Victory",
             "dateAvailable": "17 September 2020",
             "dateClosed": "18 September 2020",
-            "timeLimit": "30 menit",
+            "timeLimit": 30,
             "score": 60,
             "status": 1,
         },
