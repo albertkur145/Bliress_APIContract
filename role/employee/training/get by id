@@ -36,26 +36,7 @@ RESPONSE
                 },
             ],
         },
-        "employees": {
-            "total": "86",
-            "employee": [
-                {
-                    "id": 1,
-                    "name": "Rendi Orton",
-                    "division": "Sales Manager",
-                },
-                {
-                    "id": 2,
-                    "name": "Denny Laoli",
-                    "division": "Supervisor Business",
-                },
-                {
-                    "id": 3,
-                    "name": "Diana Permata",
-                    "division": "Akuntan",
-                },
-            ],
-        },
+        "isAttend": 1,
     },
 	"paging": null,
 	"errors": null,

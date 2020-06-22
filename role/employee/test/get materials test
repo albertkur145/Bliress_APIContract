@@ -1,4 +1,5 @@
 NB: 
+- kasih validasi, apakah user sudah absensi atau belum. kalau belum, berarti tidak boleh ikut test
 - untuk mengambil semua test di training tertentu pada user tertentu.
 - status sebagai trigger, apakah user sudah pernah kerjain test ini atau belum.
 - data yang di return hanya test yang sudah dibuat admin/trainer
