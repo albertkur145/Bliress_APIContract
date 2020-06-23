@@ -5,9 +5,9 @@ NB:
 url      : http://localhost:{port}/api/trainer/material
 type     : DELETE
 params   : {
-    "batch": "3",
+    "batchId": 202006,
     "training": "1",
-    "materialId": "1",
+    "materialId": 1,
 }
 
 

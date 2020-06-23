@@ -7,8 +7,8 @@ url      : http://localhost:{port}/api/trainer/training/detail
 type     : GET
 params   : {
     "trainerId": 1,
-    "training": "4",
-    "batch": "2",
+    "training": "1",
+    "batchId": 202006,
 }
 
 
@@ -18,6 +18,11 @@ RESPONSE
 	"code": 200,
 	"status": "OK",
 	"data": {
+        "batch": {
+            "id": 202006,
+            "batch": "Juni",
+            "year": 2020,
+        },
         "materials": [
             {
                 "id": 1,
@@ -29,7 +34,7 @@ RESPONSE
             },
         ],
         "employees": {
-            "total": "86",
+            "total": 86,
             "employee": [
                 {
                     "id": 1,
