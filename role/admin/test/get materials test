@@ -18,7 +18,7 @@ RESPONSE
 	"data": {
         "batch" : {
             id: 202006,
-            batch: 'Juni',
+            batch: "Juni",
             year: 2020,
         },
         "training": "4",

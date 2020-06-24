@@ -5,7 +5,7 @@ NB:
 url      : http://localhost:{port}/api/trainer/test/preview
 type     : GET
 params   : {
-    "batch": "2",
+    "batchId": 202006,
     "training": "4",
     "materialId": 1,
 }
@@ -17,11 +17,9 @@ RESPONSE
 	"code": 200,
 	"status": "OK",
 	"data": {
-        "batch" : "2",
-        "training": "4",
-        "available": "2020/09/15",
-        "closed": "2020/09/18",
-        "timeLimit": "20",
+        "available": "2020-09-15",
+        "closed": "2020-09-18",
+        "timeLimit": 20,
         "material": {
             "id": 1,
             "name": "Think Win Win",
@@ -75,4 +73,23 @@ RESPONSE
     },
 	"paging": null,
 	"errors": null,
+}
+
+
+RESPONSE (Jika belum ada soal di dalam materi tersebut)
+--------
+{
+    "code": 200,
+    "status": "OK",
+    "data": {
+        "available": null,
+        "closed": null,
+        "timeLimit": null,
+        "material": {
+            "id": 1,
+            "name": "Think Win Win",
+            "questions": null,
+        },
+    "paging": null,
+    "errors": null,
 }

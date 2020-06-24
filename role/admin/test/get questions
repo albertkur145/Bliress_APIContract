@@ -82,8 +82,6 @@ RESPONSE (Jika belum ada soal di dalam materi tersebut)
     "code": 200,
     "status": "OK",
     "data": {
-        "batch" : "2",
-        "training": "4",
         "available": null,
         "closed": null,
         "timeLimit": null,
