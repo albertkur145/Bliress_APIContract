@@ -2,6 +2,11 @@ NB:
 - untuk mengambil materi-materi yang ada di training dan batch tertentu.
 
 
+Header
+- Content-Type  : application/json
+- Authorization : Bearer <token>
+
+
 url      : http://localhost:{port}/api/admin/material
 type     : GET
 params   : {

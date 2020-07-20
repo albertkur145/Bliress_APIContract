@@ -2,6 +2,11 @@ NB:
 - untuk menambah test baru pada sebuah materi di batch dan training tertentu
 
 
+Header
+- Content-Type  : application/json
+- Authorization : Bearer <token>
+
+
 url      : http://localhost:{port}/api/admin/test
 type     : POST
 params   : {

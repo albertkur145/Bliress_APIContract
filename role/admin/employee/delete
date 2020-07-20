@@ -2,6 +2,11 @@ NB:
 - untuk menghapus akun pegawai tertentu pada sistem
 
 
+Header
+- Content-Type  : application/json
+- Authorization : Bearer <token>
+
+
 url      : http://localhost:{port}/api/admin/employee
 type     : DELETE
 params   : {

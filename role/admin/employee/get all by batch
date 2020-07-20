@@ -2,7 +2,12 @@ NB:
 - untuk mengambil semua data pegawai yang terdaftar di batch tertentu
 
 
-url      : http://localhost:{port}/api/admin/batch/employee
+Header
+- Content-Type  : application/json
+- Authorization : Bearer <token>
+
+
+url      : http://localhost:{port}/api/admin/employee/batch
 type     : GET
 params   : {
     "batchId": 202006,

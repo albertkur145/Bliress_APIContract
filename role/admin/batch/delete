@@ -2,6 +2,11 @@ NB:
 - untuk menghapus batch tertentu
 
 
+Header
+- Content-Type  : application/json
+- Authorization : Bearer <token>
+
+
 url      : http://localhost:{port}/api/admin/batch
 type     : DELETE
 params   : {

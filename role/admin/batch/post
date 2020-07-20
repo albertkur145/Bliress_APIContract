@@ -2,10 +2,15 @@ NB:
 - untuk menambah batch baru
 
 
+Header
+- Content-Type  : application/json
+- Authorization : Bearer <token>
+
+
 url      : http://localhost:{port}/api/admin/batch
 type     : POST
 params   : {
-    "batch": 1,   1 = Januari, 2 = Februari, dst 
+    "batch": 1,               // 1 = Januari, 2 = Februari, dst 
     "year": 2020,
 }
 

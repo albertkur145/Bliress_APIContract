@@ -1,0 +1,22 @@
+NB: 
+- untuk mentrigger apakah memiliki notifikasi atau tidak
+
+
+url      : http://localhost:{port}/api/notification/trigger
+type     : GET
+params   : {
+    "employeeId": 1,
+}
+
+
+RESPONSE
+--------
+{
+	"code": 200,
+	"status": "OK",
+	"data": {
+        "hasNotif": true,
+    },
+	"paging": null,
+	"errors": null,
+}

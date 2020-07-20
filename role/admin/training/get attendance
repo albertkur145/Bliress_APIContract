@@ -2,6 +2,11 @@ NB:
 - untuk mengambil semua pegawai yang sudah/belum melakukan absensi di training tertentu
 
 
+Header
+- Content-Type  : application/json
+- Authorization : Bearer <token>
+
+
 url      : http://localhost:{port}/api/admin/batch/training/attendance
 type     : GET
 params   : {

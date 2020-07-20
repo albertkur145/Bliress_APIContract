@@ -2,6 +2,11 @@ NB:
 - untuk mengambil semua data batch
 
 
+Header
+- Content-Type  : application/json
+- Authorization : Bearer <token>
+
+
 url      : http://localhost:{port}/api/admin/batch
 type     : GET
 params   : -

@@ -2,6 +2,11 @@ NB:
 - untuk mengambil semua data training yang terdaftar di batch tertentu
 
 
+Header
+- Content-Type  : application/json
+- Authorization : Bearer <token>
+
+
 url      : http://localhost:{port}/api/admin/batch/training
 type     : GET
 params   : {

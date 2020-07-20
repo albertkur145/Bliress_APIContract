@@ -2,6 +2,11 @@ NB:
 - untuk mengambil semua data notifikasi yang sudah berhasil dikirim.
 
 
+Header
+- Content-Type  : application/json
+- Authorization : Bearer <token>
+
+
 url      : http://localhost:{port}/api/admin/notificaton
 type     : GET
 params   : -

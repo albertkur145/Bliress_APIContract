@@ -2,6 +2,11 @@ NB:
 - untuk mengirim notifikasi kepada batch tertentu
 
 
+Header
+- Content-Type  : application/json
+- Authorization : Bearer <token>
+
+
 url      : http://localhost:{port}/api/admin/notification
 type     : POST
 params   : {

@@ -2,6 +2,11 @@ NB:
 - untuk mengambil semua data trainer yang terdaftar pada sistem
 
 
+Header
+- Content-Type  : application/json
+- Authorization : Bearer <token>
+
+
 url      : http://localhost:{port}/api/admin/trainer
 type     : GET
 params   : -

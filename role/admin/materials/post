@@ -2,6 +2,11 @@ NB:
 - untuk mengupload file materi pada training di batch tertentu.
 
 
+Header
+- Content-Type  : application/json
+- Authorization : Bearer <token>
+
+
 url      : http://localhost:{port}/api/admin/material
 type     : POST
 params   : {

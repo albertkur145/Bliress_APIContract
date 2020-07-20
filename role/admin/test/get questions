@@ -2,6 +2,11 @@ NB:
 - untuk mengambil soal-soal test di materi tertentu pada training dan batch tertentu.
 
 
+Header
+- Content-Type  : application/json
+- Authorization : Bearer <token>
+
+
 url      : http://localhost:{port}/api/admin/test/preview
 type     : GET
 params   : {

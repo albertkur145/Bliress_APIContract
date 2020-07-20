@@ -2,6 +2,11 @@ NB:
 - untuk mengambil semua materi test di batch dan training tertentu.
 
 
+Header
+- Content-Type  : application/json
+- Authorization : Bearer <token>
+
+
 url      : http://localhost:{port}/api/admin/test
 type     : GET
 params   : {
