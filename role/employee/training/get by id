@@ -3,6 +3,11 @@ NB:
 - juga untuk melihat pegawai siapa saja yang akan ikut di training ini
 
 
+Header
+- Content-Type  : application/json
+- Authorization : Bearer <token>
+
+
 url      : http://localhost:{port}/api/training/detail
 type     : GET
 params   : {

@@ -2,6 +2,11 @@ NB:
 - untuk mengubah test tertentu pada sebuah materi di batch dan training tertentu
 
 
+Header
+- Content-Type  : application/json
+- Authorization : Bearer <token>
+
+
 url      : http://localhost:{port}/api/trainer/test
 type     : PUT
 params   : {

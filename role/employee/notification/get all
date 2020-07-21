@@ -2,6 +2,11 @@ NB:
 - untuk mengambil semua notifikasi pada pegawai tertentu
 
 
+Header
+- Content-Type  : application/json
+- Authorization : Bearer <token>
+
+
 url      : http://localhost:{port}/api/notification
 type     : GET
 params   : {

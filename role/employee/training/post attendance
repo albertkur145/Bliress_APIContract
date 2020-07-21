@@ -2,6 +2,11 @@ NB:
 - untuk melakukan absensi pegawai pada training tertentu.
 
 
+Header
+- Content-Type  : application/json
+- Authorization : Bearer <token>
+
+
 url      : http://localhost:{port}/api/training/attendance
 type     : POST
 params   : {

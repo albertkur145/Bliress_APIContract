@@ -4,6 +4,11 @@ NB:
   artinya user tersebut sudah punya izin untuk melakukan test per materi di training tersebut.
 
 
+Header
+- Content-Type  : application/json
+- Authorization : Bearer <token>
+
+
 url      : http://localhost:{port}/api/test
 type     : GET
 params   : {

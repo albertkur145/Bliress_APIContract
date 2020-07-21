@@ -13,7 +13,6 @@ params   : {
     "id": 4,
     "name": "Albert Kurniawan",
     "email": "albertkur@gmail.com",
-    "password": "123456",
     "phoneNumber": "087855261005",
     "division": "Sales Manager",
     "birthdate": "2020-11-05",

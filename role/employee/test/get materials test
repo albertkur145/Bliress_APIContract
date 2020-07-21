@@ -6,6 +6,11 @@ NB:
   jika admin/trainer belum buat test nya, maka materi tersebut tidak perlu di return.
 
 
+Header
+- Content-Type  : application/json
+- Authorization : Bearer <token>
+
+
 url      : http://localhost:{port}/api/test/material
 type     : GET
 params   : {

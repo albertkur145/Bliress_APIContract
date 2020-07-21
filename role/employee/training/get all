@@ -2,6 +2,11 @@ NB:
 - untuk mengambil semua data training pada pegawai tertentu
 
 
+Header
+- Content-Type  : application/json
+- Authorization : Bearer <token>
+
+
 url      : http://localhost:{port}/api/training
 type     : GET
 params   : {

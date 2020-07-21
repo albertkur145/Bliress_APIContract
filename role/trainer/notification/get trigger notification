@@ -7,10 +7,10 @@ Header
 - Authorization : Bearer <token>
 
 
-url      : http://localhost:{port}/api/notification/trigger
+url      : http://localhost:{port}/api/trainer/notification/trigger
 type     : GET
 params   : {
-    "employeeId": 1,
+    "trainerId": 1,
 }
 
 

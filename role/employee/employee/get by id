@@ -2,6 +2,11 @@ NB:
 - untuk mengambil detail data pegawai tertentu
 
 
+Header
+- Content-Type  : application/json
+- Authorization : Bearer <token>
+
+
 url      : http://localhost:{port}/api/employee
 type     : GET
 params   : {

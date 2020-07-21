@@ -2,6 +2,11 @@ NB:
 - untuk mengambil soal-soal test pada materi tertentu
 
 
+Header
+- Content-Type  : application/json
+- Authorization : Bearer <token>
+
+
 url      : http://localhost:{port}/api/test/material/question
 type     : GET
 params   : {
