@@ -10,7 +10,7 @@ Header
 url      : http://localhost:{port}/api/admin/batch/training/detail
 type     : GET
 params   : {
-    "batchId": 202006,
+    "batchId": "JAN-2020",
     "training": "4",
 }
 
@@ -21,25 +21,15 @@ RESPONSE
 	"code": 200,
 	"status": "OK",
 	"data": {
-        "id": 1,
-        "training": 1,
-        "date": "2020-09-15",
-        "timeStart": "08:00",
-        "timeFinish": "16:00",
-        "trainerId": 1,
-        "location": "di Gedung Serbaguna, Ruang 315 C Sarana Jaya",
-        "materials": [
-            {
-                "id": 1,
-                "name": "Think Win Win",
-                "link": "link download"
-            },
-            {
-                "id": 2,
-                "name": "Time Management",
-                "link": "link download"
-            },
-        ],
+        "training": {
+            "id": 1,
+            "training": 1,
+            "date": "2020-09-15",
+            "timeStart": "08:00",
+            "timeFinish": "16:00",
+            "trainerId": 1,
+            "location": "di Gedung Serbaguna, Ruang 315 C Sarana Jaya",
+        },
     },
 	"paging": null,
 	"errors": null,

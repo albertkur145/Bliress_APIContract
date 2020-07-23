@@ -1,3 +1,5 @@
+#CLEAR
+
 NB: 
 - untuk menambah training pada batch tertentu
 
@@ -10,22 +12,25 @@ Header
 url      : http://localhost:{port}/api/admin/batch/training
 type     : POST
 params   : {
-    "batchId": 202006,
+    "batchId": "APR-2020",
     "training": "1",
-    "date": "2020-05-25",
+    "date": "25-06-2020",
     "location": "di Gedung Maybara, Lt 3 Ruang 215",
-    "timeStart": "06:00",
-    "timeFinish": "18:00",
-    "trainerId": 1,
+    "timeStart": "2020-06-25T06:00:00Z",
+    "timeFinish": "2020-06-25T18:00:00Z",
+    "trainerId": "5c1e675f-0b91-49c8",
 }
 
 
 RESPONSE
 --------
 {
-	"code": 200,
-	"status": "OK",
-	"data": null,
+	"code": 202,
+	"status": "ACCEPTED",
+	"data": {
+        "status": "ACCEPTED",
+        "message": "Training has been created",
+    },
     "paging": null,
     "errors": null,
 }

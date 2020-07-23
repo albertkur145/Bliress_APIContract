@@ -10,7 +10,7 @@ Header
 url      : http://localhost:{port}/api/training
 type     : GET
 params   : {
-    "employeeId": 1,
+    "employeeId": "1",
 }
 
 
@@ -19,23 +19,25 @@ RESPONSE
 {
 	"code": 200,
 	"status": "OK",
-	"data": [
-        {
-            "id": 1,
-            "training": "1",
-            "date": "15 September 2020",
-        },
-        {
-            "id": 2,
-            "training": "2",
-            "date": "27 September 2020",
-        },
-        {
-            "id": 2,
-            "training": "3",
-            "date": "04 Oktober 2020",
-        },
-    ],
+	"data": {
+        "trainingList": [
+            {
+                "id": 1,
+                "training": "1",
+                "date": "15 September 2020",
+            },
+            {
+                "id": 2,
+                "training": "2",
+                "date": "27 September 2020",
+            },
+            {
+                "id": 2,
+                "training": "3",
+                "date": "04 Oktober 2020",
+            },
+        ],
+    },
 	"paging": null,
 	"errors": null,
 }

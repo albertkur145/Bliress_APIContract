@@ -10,7 +10,7 @@ Header
 url      : http://localhost:{port}/api/admin/employee/detail
 type     : GET
 params   : {
-    "id": 4,
+    "id": "4",
 }
 
 
@@ -20,16 +20,18 @@ RESPONSE
 	"code": 200,
 	"status": "OK",
 	"data": {
-        "id": 1,
-        "cardId": "BLI-1154AD",
-        "name": "Albert Kurniawan",
-        "email": "albertkur@gmail.com",
-        "password": "123456",
-        "phoneNumber": "087855261005",
-        "division": "Sales Manager",
-        "birthdate": "2020-12-05",
-        "gender": "Pria",
-        "batchId": 202009,
+        "employee": {
+            "id": "1",
+            "cardId": "BLI-1154AD",
+            "name": "Albert Kurniawan",
+            "email": "albertkur@gmail.com",
+            "password": "123456",
+            "phoneNumber": "087855261005",
+            "division": "Sales Manager",
+            "birthdate": "15-02-2020",
+            "gender": "Pria",
+            "batchId": "JAN-2020",
+        },
     },
 	"paging": null,
 	"errors": null,

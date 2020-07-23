@@ -17,23 +17,25 @@ RESPONSE
 {
 	"code": 200,
 	"status": "OK",
-	"data": [
-        {
-            "id": 1,
-            "name": "Albert Kurniawan",
-            "division": "Software Engineering",
-        },
-        {
-            "id": 2,
-            "name": "Muhammad Taufan Okka",
-            "division": "Software Engineering",
-        },
-        {
-            "id": 3,
-            "name": "Simon Samosir",
-            "division": "Human Resources",
-        },
-    ],
+	"data": {
+        "trainerList": [
+            {
+                "id": 1,
+                "name": "Albert Kurniawan",
+                "division": "Software Engineering",
+            },
+            {
+                "id": 2,
+                "name": "Muhammad Taufan Okka",
+                "division": "Software Engineering",
+            },
+            {
+                "id": 3,
+                "name": "Simon Samosir",
+                "division": "Human Resources",
+            },
+        ],
+    },
 	"paging": null,
 	"errors": null,
 }

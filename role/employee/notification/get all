@@ -10,7 +10,7 @@ Header
 url      : http://localhost:{port}/api/notification
 type     : GET
 params   : {
-    "employeeId": 1,
+    "employeeId": "1",
 }
 
 
@@ -19,18 +19,20 @@ RESPONSE
 {
 	"code": 200,
 	"status": "OK",
-	"data": [
-        {
-            "id": 1,
-            "title": "Reminder - Training,
-            "message": "Haloo Albert, ingat lho 1 minggu lagi kamu ada training perdanamu di Gedung Serbaguna Sarana Jaya. Tepatnya pada tanggal 15 September 2020 pkl 08.00 WIB. Untuk lebih detailnya, cek jadwal di halaman training ya!",
-        },
-        {
-            "id": 2,
-            "title": "Reminder - Training,
-            "message": "Haloo Albert, ingat lho 1 minggu lagi kamu ada training perdanamu di Gedung Serbaguna Sarana Jaya. Tepatnya pada tanggal 15 September 2020 pkl 08.00 WIB. Untuk lebih detailnya, cek jadwal di halaman training ya!",
-        },
-    ],
+	"data": {
+        "notificationList": [
+            {
+                "id": 1,
+                "title": "Reminder - Training,
+                "message": "Haloo Albert, ingat lho 1 minggu lagi kamu ada training perdanamu di Gedung Serbaguna Sarana Jaya. Tepatnya pada tanggal 15 September 2020 pkl 08.00 WIB. Untuk lebih detailnya, cek jadwal di halaman training ya!",
+            },
+            {
+                "id": 2,
+                "title": "Reminder - Training,
+                "message": "Haloo Albert, ingat lho 1 minggu lagi kamu ada training perdanamu di Gedung Serbaguna Sarana Jaya. Tepatnya pada tanggal 15 September 2020 pkl 08.00 WIB. Untuk lebih detailnya, cek jadwal di halaman training ya!",
+            },
+        ],
+    },
 	"paging": null,
 	"errors": null,
 }

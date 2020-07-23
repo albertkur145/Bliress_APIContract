@@ -1,3 +1,5 @@
+#CLEAR
+
 NB: 
 - untuk menambah akun pegawai baru pada sistem
 
@@ -15,18 +17,21 @@ params   : {
     "password": "123456",
     "phoneNumber": "081392290882",
     "division": "Operation",
-    "birthdate": "2020-02-28',
+    "birthdate": "28-02-2020",
     "gender": "Pria",
-    "batchId": 202101,
+    "batchId": "JAN-2020",
 }
 
 
 RESPONSE
 --------
 {
-	"code": 200,
-	"status": "OK",
-	"data": null,
+	"code": 202,
+	"status": "ACCEPTED",
+	"data": {
+        "status": "ACCEPTED",
+        "message": "Employee has been created",
+    },
     "paging": null,
     "errors": null,
 }

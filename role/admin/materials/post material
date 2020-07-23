@@ -10,21 +10,21 @@ Header
 url      : http://localhost:{port}/api/admin/material
 type     : POST
 params   : {
-    "batchId": 202006,
+    "batchId": "JAN-2020",
     "training": "1",
-    "material": {
-        "name": "Time Management",
-        "file": "time.pptx",
-    },
+    "materialName": "Time Management",
 }
 
 
 RESPONSE
 --------
 {
-	"code": 200,
-	"status": "OK",
-	"data": null,
+	"code": 202,
+	"status": "ACCEPTED",
+	"data": {
+        "status": "ACCEPTED",
+        "message": "Material has been created",
+    },
     "paging": null,
     "errors": null,
 }

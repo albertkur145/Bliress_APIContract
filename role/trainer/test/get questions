@@ -10,9 +10,9 @@ Header
 url      : http://localhost:{port}/api/trainer/test/preview
 type     : GET
 params   : {
-    "batchId": 202006,
+    "batchId": "APR-2020",
     "training": "4",
-    "materialId": 1,
+    "materialId": "1",
 }
 
 
@@ -24,9 +24,9 @@ RESPONSE
 	"data": {
         "available": "2020-09-15",
         "closed": "2020-09-18",
-        "timeLimit": 20,
+        "timeLimit": "20",
         "material": {
-            "id": 1,
+            "id": "1",
             "name": "Think Win Win",
             "questions": [
                 {
@@ -91,7 +91,7 @@ RESPONSE (Jika belum ada soal di dalam materi tersebut)
         "closed": null,
         "timeLimit": null,
         "material": {
-            "id": 1,
+            "id": "1",
             "name": "Think Win Win",
             "questions": null,
         },

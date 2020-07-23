@@ -10,7 +10,7 @@ Header
 url      : http://localhost:{port}/api/admin/trainer/detail
 type     : GET
 params   : {
-    "id": 4,
+    "id": "4",
 }
 
 
@@ -20,11 +20,13 @@ RESPONSE
 	"code": 200,
 	"status": "OK",
 	"data": {
-        "id": 1,
-        "name": "Albert Kurniawan",
-        "email": "albertkur@gmail.com",
-        "password": "123456",
-        "division": "Software Engineer",
+        "trainer": {
+            "id": 1,
+            "name": "Albert Kurniawan",
+            "email": "albertkur@gmail.com",
+            "password": "123456",
+            "division": "Software Engineer",
+        },
     },
 	"paging": null,
 	"errors": null,

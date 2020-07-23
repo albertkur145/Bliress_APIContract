@@ -1,16 +1,17 @@
 NB: 
-- untuk mentrigger apakah memiliki notifikasi atau tidak
-
+- untuk mengambil status absensi pegawai
+- 1 = sudah absen, 0 = belum absen
 
 Header
 - Content-Type  : application/json
 - Authorization : Bearer <token>
 
 
-url      : http://localhost:{port}/api/trainer/notification/trigger
+url      : http://localhost:{port}/api/training/attendance
 type     : GET
 params   : {
-    "trainerId": "1",
+    "employeeId": "1",
+    "training": "4",
 }
 
 
@@ -20,7 +21,7 @@ RESPONSE
 	"code": 200,
 	"status": "OK",
 	"data": {
-        "hasNotif": true,
+        "hasAttend": "1",
     },
 	"paging": null,
 	"errors": null,

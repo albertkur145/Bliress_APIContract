@@ -10,7 +10,7 @@ Header
 url      : http://localhost:{port}/api/admin/notification
 type     : POST
 params   : {
-    "batchId": 202006,
+    "batchId": "JAN-2020",
     "title": "PENGUMUMAN",
     "message": "Pengumuman ditujukan kepada batch Juni 2020....",
 }
@@ -19,9 +19,12 @@ params   : {
 RESPONSE
 --------
 {
-	"code": 200,
-	"status": "OK",
-	"data": null,
+	"code": 202,
+	"status": "ACCEPTED",
+	"data": {
+		"status": "ACCEPTED",
+        "message": "Notification has been created",
+    },
     "paging": null,
     "errors": null,
 }

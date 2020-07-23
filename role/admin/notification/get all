@@ -17,22 +17,24 @@ RESPONSE
 {
 	"code": 200,
 	"status": "OK",
-	"data": [
-        {
-            "id": 1,
-            "title": "PENGUMUMAN",
-            "batch": "Juni 2020",
-            "message": "Dalam mengikuti training 2, diharapkan setiap peserta training membawa kebutuhan masing-masing seperti alat tulis, laptop, ataupun peralatan mandi lainnya. Terimakasih.",
-            "date": "12/07/2020, 09.45",
-        },
-        {
-            "id": 2,
-            "title": "PENGUMUMAN",
-            "batch": "Januari 2021",
-            "message": "Dalam mengikuti training 4, diharapkan setiap peserta training pas foto 3x4 sebanyak 2 lembar dan 6x4 sebanyak 4 lembar. Terimakasih.",
-            "date": "24/08/2021, 10.20",
-        },
-    ],
+	"data": {
+        "notificationList": [
+            {
+                "id": "1",
+                "title": "PENGUMUMAN",
+                "batch": "Juni 2020",
+                "message": "Dalam mengikuti training 2, diharapkan setiap peserta training membawa kebutuhan masing-masing seperti alat tulis, laptop, ataupun peralatan mandi lainnya. Terimakasih.",
+                "date": "12/07/2020, 09.45",
+            },
+            {
+                "id": "2",
+                "title": "PENGUMUMAN",
+                "batch": "Januari 2021",
+                "message": "Dalam mengikuti training 4, diharapkan setiap peserta training pas foto 3x4 sebanyak 2 lembar dan 6x4 sebanyak 4 lembar. Terimakasih.",
+                "date": "24/08/2021, 10.20",
+            },
+        ],
+    },
 	"paging": null,
 	"errors": null,
 }

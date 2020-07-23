@@ -15,18 +15,21 @@ params   : {
     "email": "albertkur@gmail.com",
     "phoneNumber": "087855261005",
     "division": "Sales Manager",
-    "birthdate": "2020-11-05",
+    "birthdate": "15-03-2020",
     "gender": "Pria",
-    "batchId": 202009,
+    "batchId": 'JAN-2020',
 }
 
 
 RESPONSE
 --------
 {
-	"code": 200,
-	"status": "OK",
-	"data": null,
+	"code": 202,
+	"status": "ACCEPTED",
+	"data": {
+        "status": "ACCEPTED",
+        "message": "Employee has been updated",
+    },,
     "paging": null,
     "errors": null,
 }

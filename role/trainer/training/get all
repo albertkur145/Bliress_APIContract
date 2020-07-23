@@ -5,7 +5,7 @@ NB:
 url      : http://localhost:{port}/api/trainer/training
 type     : GET
 params   : {
-    "trainerId": 1,
+    "trainerId": "1",
 }
 
 
@@ -14,44 +14,46 @@ RESPONSE
 {
 	"code": 200,
 	"status": "OK",
-	"data": [
-        {
-            "training": "1",
-            "batch": {
-                "id": 202006,
-                "batch": "Juni",
-                "year": 2020,
+	"data": {
+        "trainingList": [
+            {
+                "training": "1",
+                "batch": {
+                    "id": "JUN-2020",
+                    "batch": "Juni",
+                    "year": "2020",
+                },
+                "date": "15 September 2020",
+                "timeStart": "12:00",
+                "timeFinish": "18:00",
+                "location": "di Gedung Serbaguna Basement 1 R.25, Sarana Jaya",
             },
-            "date": "15 September 2020",
-            "timeStart": "12:00",
-            "timeFinish": "18:00",
-            "location": "di Gedung Serbaguna Basement 1 R.25, Sarana Jaya",
-        },
-        {
-            "training": "1",
-            "batch": {
-                "id": 202009,
-                "batch": "September",
-                "year": 2020,
+            {
+                "training": "1",
+                "batch": {
+                    "id": "SEP-2020",
+                    "batch": "September",
+                    "year": "2020",
+                },
+                "date": "27 September 2020",
+                "timeStart": "09:30",
+                "timeFinish": "16:30",
+                "location": "di Gedung Serbaguna Basement 2 R.2C, Sarana Jaya",
             },
-            "date": "27 September 2020",
-            "timeStart": "09:30",
-            "timeFinish": "16:30",
-            "location": "di Gedung Serbaguna Basement 2 R.2C, Sarana Jaya",
-        },
-        {
-            "training": "2",
-            "batch": {
-                "id": 202101,
-                "batch": "Januari",
-                "year": 2021,
+            {
+                "training": "2",
+                "batch": {
+                    "id": "JAN-2021",
+                    "batch": "Januari",
+                    "year": "2021",
+                },
+                "date": "02 Februari 2021",
+                "timeStart": "12:00",
+                "timeFinish": "15:00",
+                "location": "di Gedung Serbaguna Basement 2 R.2A, Sarana Jaya",
             },
-            "date": "02 Februari 2021",
-            "timeStart": "12:00",
-            "timeFinish": "15:00",
-            "location": "di Gedung Serbaguna Basement 2 R.2A, Sarana Jaya",
-        },
-    ],
+        ],
+    },
 	"paging": null,
 	"errors": null,
 }

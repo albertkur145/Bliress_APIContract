@@ -10,9 +10,9 @@ Header
 url      : http://localhost:{port}/api/test/material/question
 type     : GET
 params   : {
-    "employeeId": 1,
+    "employeeId": "1",
     "training": "1",
-    "materialId": 1,
+    "materialId": "1",
 }
 
 

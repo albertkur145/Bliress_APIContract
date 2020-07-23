@@ -1,5 +1,6 @@
 NB: 
 - untuk mengambil semua pegawai yang sudah/belum melakukan absensi di training tertentu
+- status 1 = sudah absen, 0 = belum absen
 
 
 Header
@@ -10,7 +11,7 @@ Header
 url      : http://localhost:{port}/api/admin/batch/training/attendance
 type     : GET
 params   : {
-    "batchId": 202006,
+    "batchId": "JAN-2020",
     "training": "1",
 }
 
@@ -21,12 +22,7 @@ RESPONSE
 	"code": 200,
 	"status": "OK",
 	"data": {
-        "batch": {
-            "id": 202006,
-            "batch": "Juni",
-            "year": 2020,
-        },
-        "employee": [
+        "employeeList": [
             {
                 "id": 1,
                 "cardId": "BLI-1153AD",

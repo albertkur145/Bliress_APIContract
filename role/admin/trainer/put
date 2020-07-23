@@ -10,7 +10,7 @@ Header
 url      : http://localhost:{port}/api/admin/trainer
 type     : PUT
 params   : {
-    "id": 5,
+    "id": "5",
     "name": "Albert Kurniawan",
     "email": "albertkur@gmail.com",
     "division": "Sales Manager",
@@ -20,9 +20,12 @@ params   : {
 RESPONSE
 --------
 {
-	"code": 200,
-	"status": "OK",
-	"data": null,
+	"code": 202,
+	"status": "ACCEPTED",
+	"data": {
+		"status": "ACCEPTED",
+        "message": "Trainer has been updated",
+    },
     "paging": null,
     "errors": null,
 }

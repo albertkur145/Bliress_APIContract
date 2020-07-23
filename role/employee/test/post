@@ -10,28 +10,28 @@ Header
 url      : http://localhost:{port}/api/test/material/question
 type     : POST
 params   : {
-    "employeeId": 1,
-    "materialId": 1,
+    "employeeId": "1",
+    "materialId": "1",
     "training": "1",
     "question": [
         {
-            "id": 1,
+            "id": "1",
             "choice": "2",
         },
         {
-            "id": 2,
+            "id": "2",
             "choice": "1",
         },
         {
-            "id": 3,
+            "id": "3",
             "choice": "",
         },
         {
-            "id": 4,
+            "id": "4",
             "choice": "2",
         },
         {
-            "id": 5,
+            "id": "5",
             "choice": "",
         },
     ],
@@ -41,9 +41,12 @@ params   : {
 RESPONSE
 --------
 {
-	"code": 200,
-	"status": "OK",
-	"data": null,
+	"code": 202,
+	"status": "ACCEPTED",
+	"data": {
+        "status": "ACCEPTED",
+        "message": "Test has been submit",
+    },
     "paging": null,
     "errors": null,
 }

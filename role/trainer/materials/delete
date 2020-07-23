@@ -10,9 +10,9 @@ Header
 url      : http://localhost:{port}/api/trainer/material
 type     : DELETE
 params   : {
-    "batchId": 202006,
+    "batchId": "APR-2020",
     "training": "1",
-    "materialId": 1,
+    "materialId": "1",
 }
 
 
@@ -21,7 +21,10 @@ RESPONSE
 {
 	"code": 200,
 	"status": "OK",
-	"data": null,
+	"data": {
+        "status": "OK",
+        "message": "Material has been deleted",
+    },
     "paging": null,
     "errors": null,
 }

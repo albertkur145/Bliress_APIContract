@@ -1,3 +1,5 @@
+#CLEAR
+
 NB: 
 - untuk login user
 
@@ -6,10 +8,10 @@ Header
 - Content-Type : application/json
 
 
-url      : http://localhost:{port}/api/login
+url      : http://localhost:{port}/api/auth/login
 type     : POST
 params	 : {
-	"email": "albertkur@gmail.com",
+	"usermail": "albertkur@gmail.com",
 	"password": "123,
 }
 
@@ -20,10 +22,23 @@ RESPONSE
 	"code": 200,
 	"status": "OK",
 	"data": {
-		"id": 1,
-		"role": "Employee",
 		"token": "eyJhbGciOiJIUzUxMiJ9.eyJyb2xlIjpbIlJPTEVfVVNFUiJdLCJzdWIi",
-		"message": "Success"
+		"message": "Success",
+		"user": {
+            "userId": "046bb00e-2cee-4232-845a-5113f0e94b13",
+            "username": "admin",
+            "usermail": "admin@mail.com",
+            "roles": [
+                "ROLE_ADMIN",
+            ],
+            "division": null,
+            "phoneNumber": null,
+            "gender": null,
+            "batch": null,
+            "stage": null,
+            "birthDate": null,
+            "registeredAt": null,
+        },
 	},
 	"paging": null,
 	"errors": null,

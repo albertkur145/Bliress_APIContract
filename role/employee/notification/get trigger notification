@@ -10,7 +10,7 @@ Header
 url      : http://localhost:{port}/api/notification/trigger
 type     : GET
 params   : {
-    "employeeId": 1,
+    "employeeId": "1",
 }
 
 

@@ -10,7 +10,7 @@ Header
 url      : http://localhost:{port}/api/trainer/notification
 type     : GET
 params   : {
-    "trainerId": 1,
+    "trainerId": "1",
 }
 
 
@@ -19,18 +19,20 @@ RESPONSE
 {
 	"code": 200,
 	"status": "OK",
-	"data": [
-        {
-            "id": 1,
-            "title": "Reminder - Training,
-            "message": "Haloo Albert, ingat lho 2 minggu lagi kamu ada training 1 di Wisma Rahayu. Tepatnya pada tanggal 15 September 2020. Untuk lebih detailnya, cek jadwal di halaman training ya!",
-        },
-        {
-            "id": 2,
-            "title": "Reminder - Training,
-            "message": "Haloo Albert, ingat lho 2 minggu lagi kamu ada training 1 di Wisma Rahayu. Tepatnya pada tanggal 15 September 2020. Untuk lebih detailnya, cek jadwal di halaman training ya!",
-        },
-    ],
+	"data": {
+        "notificationList": [
+            {
+                "id": 1,
+                "title": "Reminder - Training,
+                "message": "Haloo Albert, ingat lho 2 minggu lagi kamu ada training 1 di Wisma Rahayu. Tepatnya pada tanggal 15 September 2020. Untuk lebih detailnya, cek jadwal di halaman training ya!",
+            },
+            {
+                "id": 2,
+                "title": "Reminder - Training,
+                "message": "Haloo Albert, ingat lho 2 minggu lagi kamu ada training 1 di Wisma Rahayu. Tepatnya pada tanggal 15 September 2020. Untuk lebih detailnya, cek jadwal di halaman training ya!",
+            },
+        ],
+    },
 	"paging": null,
 	"errors": null,
 }

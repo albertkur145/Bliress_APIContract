@@ -1,3 +1,5 @@
+#CLEAR
+
 NB: 
 - untuk mengambil semua data batch
 
@@ -17,23 +19,34 @@ RESPONSE
 {
 	"code": 200,
 	"status": "OK",
-	"data": [
-        {   
-            "id": 202006,
-		    "batch": "Juni",
-		    "year": 2020,
-        },
-        {   
-            "id"    : 202009,
-		    "batch" : "September",
-		    "year": 2020,
-        },
-        {   
-            "id"    : 202009,
-		    "batch" : "Januari",
-		    "year": 2021,
-        },
-    ],
+	"data": {
+		"batchList": [
+            {
+                "batchId": "FEB-2020",
+                "batchName": "FEB - 2020",
+                "month": "2",
+                "year": "2020",
+            },
+            {
+                "batchId": "APR-2020",
+                "batchName": "APR - 2020",
+                "month": "4",
+                "year": "2020",
+            },
+            {
+                "batchId": "MAR-2020",
+                "batchName": "MAR - 2020",
+                "month": "3",
+                "year": "2020",
+            },
+            {
+                "batchId": "JAN-2020",
+                "batchName": "JAN - 2020",
+                "month": "1",
+                "year": "2020",
+            },
+        ],
+    },
 	"paging": null,
 	"errors": null,
 }

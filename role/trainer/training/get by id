@@ -6,9 +6,8 @@ NB:
 url      : http://localhost:{port}/api/trainer/training/detail
 type     : GET
 params   : {
-    "trainerId": 1,
+    "batchId": "APR-2020",
     "training": "1",
-    "batchId": 202006,
 }
 
 
@@ -18,41 +17,26 @@ RESPONSE
 	"code": 200,
 	"status": "OK",
 	"data": {
-        "batch": {
-            "id": 202006,
-            "batch": "Juni",
-            "year": 2020,
-        },
-        "materials": [
-            {
-                "id": 1,
-                "name": "Think Win Win",
-            },
-            {
-                "id": 2,
-                "name": "Time Management",
-            },
-        ],
-        "employees": {
-            "total": 86,
-            "employee": [
+        "employee": {
+            "total": "86",
+            "employeeList": [
                 {
-                    "id": 1,
+                    "id": "1",
                     "cardId": "BLI-1153AD",
                     "name": "Rendi Orton",
-                    "status": 1,
+                    "status": "1",
                 },
                 {
-                    "id": 2,
+                    "id": "2",
                     "cardId": "BLI-1153AD",
                     "name": "Denny Laoli",
-                    "status": 0,
+                    "status": "0",
                 },
                 {
-                    "id": 3,
+                    "id": "3",
                     "cardId": "BLI-1153AD",
                     "name": "Diana Permata",
-                    "status": 0,
+                    "status": "0",
                 },
             ],
         },

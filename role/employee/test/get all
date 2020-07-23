@@ -12,7 +12,7 @@ Header
 url      : http://localhost:{port}/api/test
 type     : GET
 params   : {
-    "employeeId": 1,
+    "employeeId": "1",
 }
 
 
@@ -21,38 +21,40 @@ RESPONSE
 {
 	"code": 200,
 	"status": "OK",
-	"data": [
-        {
-            "id": 1,
-            "training": "1",
-            "status": "Available",
-        },
-        {
-            "id": 2,
-            "training": "2",
-            "status": "Available",
-        },
-        {
-            "id": 3,
-            "training": "3",
-            "status": "Closed",
-        },
-        {
-            "id": 4,
-            "training": "4",
-            "status": "Closed",
-        },
-        {
-            "id": 5,
-            "training": "5",
-            "status": "Closed",
-        },
-        {
-            "id": 6,
-            "training": "6",
-            "status": "Closed",
-        },
-    ],
+	"data": {
+        "testList": [
+            {
+                "id": 1,
+                "training": "1",
+                "status": "Available",
+            },
+            {
+                "id": 2,
+                "training": "2",
+                "status": "Available",
+            },
+            {
+                "id": 3,
+                "training": "3",
+                "status": "Closed",
+            },
+            {
+                "id": 4,
+                "training": "4",
+                "status": "Closed",
+            },
+            {
+                "id": 5,
+                "training": "5",
+                "status": "Closed",
+            },
+            {
+                "id": 6,
+                "training": "6",
+                "status": "Closed",
+            },
+        ],
+    },
 	"paging": null,
 	"errors": null,
 }

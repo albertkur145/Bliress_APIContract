@@ -10,7 +10,7 @@ Header
 url      : http://localhost:{port}/api/admin/batch/training
 type     : GET
 params   : {
-    "batchId": 202006,
+    "batchId": "APR-2020",
 }
 
 
@@ -20,12 +20,7 @@ RESPONSE
 	"code": 200,
 	"status": "OK",
 	"data": {
-        "batch": {
-            "id": 202006,
-            "batch": "Juni",
-            "year": 2020,
-        },
-        "training": [
+        "trainingList": [
             {
                 "id": 1,
                 "training": 1,

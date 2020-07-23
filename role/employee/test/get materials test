@@ -14,7 +14,7 @@ Header
 url      : http://localhost:{port}/api/test/material
 type     : GET
 params   : {
-    "employeeId": 1,
+    "employeeId": "1",
     "training": "2",
 }
 
@@ -24,26 +24,28 @@ RESPONSE
 {
 	"code": 200,
 	"status": "OK",
-	"data": [
-        {
-            "id": 1,
-            "material": "Private Victory",
-            "dateAvailable": "12 September 2020",
-            "dateClosed": "14 September 2020",
-            "timeLimit": 20,
-            "score": 0,
-            "status": 0,
-        },
-        {
-            "id": 2,
-            "material": "Public Victory",
-            "dateAvailable": "17 September 2020",
-            "dateClosed": "18 September 2020",
-            "timeLimit": 30,
-            "score": 60,
-            "status": 1,
-        },
-    ],
+	"data": {
+        "materialList": [
+            {
+                "id": "1",
+                "material": "Private Victory",
+                "dateAvailable": "12 September 2020",
+                "dateClosed": "14 September 2020",
+                "timeLimit": "20",
+                "score": "0",
+                "status": "0",
+            },
+            {
+                "id": "2",
+                "material": "Public Victory",
+                "dateAvailable": "17 September 2020",
+                "dateClosed": "18 September 2020",
+                "timeLimit": "30",
+                "score": "60",
+                "status": "1",
+            },
+        ],
+    },
 	"paging": null,
 	"errors": null,
 }

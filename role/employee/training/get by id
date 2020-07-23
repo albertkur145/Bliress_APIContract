@@ -1,5 +1,5 @@
 NB: 
-- untuk mengambil detail data training pada pegawai tertentu
+- untuk mengambil detail data training pada batch tertentu
 - juga untuk melihat pegawai siapa saja yang akan ikut di training ini
 
 
@@ -11,7 +11,7 @@ Header
 url      : http://localhost:{port}/api/training/detail
 type     : GET
 params   : {
-    "employeeId": 1,
+    "employeeId": "1",
     "training": "4",
 }
 
@@ -26,22 +26,11 @@ RESPONSE
             "id": 1,
             "training": "4",
             "date": "15 September 2020",
-            "timeStart": "08.00",
-            "timeFinish": "16.00",
+            "timeStart": "08:00",
+            "timeFinish": "16:00",
             "trainer": "Rudi Santoso",
             "location": "di Gedung Serbaguna, Ruang 315 C Sarana Jaya",
-            "materials": [
-                {
-                    "name": "Think Win Win",
-                    "link": "link download",
-                },
-                {
-                    "name": "Time Management",
-                    "link": "link download",
-                },
-            ],
         },
-        "isAttend": 1,
     },
 	"paging": null,
 	"errors": null,

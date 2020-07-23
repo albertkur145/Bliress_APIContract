@@ -10,7 +10,7 @@ Header
 url      : http://localhost:{port}/api/admin/trainer
 type     : DELETE
 params   : {
-    "id": 5,
+    "id": "5",
 }
 
 
@@ -19,7 +19,10 @@ RESPONSE
 {
 	"code": 200,
 	"status": "OK",
-	"data": null,
+	"data": {
+		"status": "OK",
+        "message": "Trainer has been deleted",
+    },
     "paging": null,
     "errors": null,
 }
