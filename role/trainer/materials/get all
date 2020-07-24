@@ -2,7 +2,7 @@ NB:
 - untuk mengambil materi yang ada di training dan batch tertentu
 
 
-url      : http://localhost:{port}/api/trainer/training/detail
+url      : http://localhost:{port}/api/trainer/material
 type     : GET
 params   : {
     "batchId": "APR-2020",
