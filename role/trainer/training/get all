@@ -17,36 +17,24 @@ RESPONSE
 	"data": {
         "trainingList": [
             {
+                "batchId": "JUN-2020",
                 "training": "1",
-                "batch": {
-                    "id": "JUN-2020",
-                    "batch": "Juni",
-                    "year": "2020",
-                },
                 "date": "15 September 2020",
                 "timeStart": "12:00",
                 "timeFinish": "18:00",
                 "location": "di Gedung Serbaguna Basement 1 R.25, Sarana Jaya",
             },
             {
+                "batchId": "SEP-2020",
                 "training": "1",
-                "batch": {
-                    "id": "SEP-2020",
-                    "batch": "September",
-                    "year": "2020",
-                },
                 "date": "27 September 2020",
                 "timeStart": "09:30",
                 "timeFinish": "16:30",
                 "location": "di Gedung Serbaguna Basement 2 R.2C, Sarana Jaya",
             },
             {
+                "batchId": "JAN-2021"
                 "training": "2",
-                "batch": {
-                    "id": "JAN-2021",
-                    "batch": "Januari",
-                    "year": "2021",
-                },
                 "date": "02 Februari 2021",
                 "timeStart": "12:00",
                 "timeFinish": "15:00",

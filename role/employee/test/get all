@@ -48,11 +48,6 @@ RESPONSE
                 "training": "5",
                 "status": "Closed",
             },
-            {
-                "id": 6,
-                "training": "6",
-                "status": "Closed",
-            },
         ],
     },
 	"paging": null,

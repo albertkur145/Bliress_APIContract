@@ -1,6 +1,5 @@
 NB: 
 - untuk mengambil detail data training pada batch tertentu
-- juga untuk melihat pegawai siapa saja yang akan ikut di training ini
 
 
 Header
@@ -23,7 +22,7 @@ RESPONSE
 	"status": "OK",
 	"data": {
         "training": {
-            "id": 1,
+            "id": "1",
             "training": "4",
             "date": "15 September 2020",
             "timeStart": "08:00",
