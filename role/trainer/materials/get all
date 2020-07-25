@@ -18,12 +18,12 @@ RESPONSE
     "data": {
         "materialList": [
             {
-                "id": "1",
-                "name": "Think Win Win",
+                "materialId": "1",
+                "materialName": "Think Win Win",
             },
             {
-                "id": "2",
-                "name": "Time Management",
+                "materialId": "2",
+                "materialName": "Time Management",
             },
         ],
     },

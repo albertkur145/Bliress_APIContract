@@ -1,3 +1,5 @@
+#CLEAR
+
 NB: 
 - untuk mengambil semua data pegawai yang terdaftar di batch tertentu
 
@@ -23,18 +25,18 @@ RESPONSE
         "employeeList": [
             {
                 "id": "1",
-                "cardId": "BLI-1154AD",
-                "name": "Albert Kurniawan",
+                "username": "Albert Kurniawan",
+                "division": "Operation",
             },
             {
                 "id": "2",
-                "cardId": "BLI-1953OP",
-                "name": "Muhammad Taufan Okka",
+                "username": "Muhammad Taufan Okka",
+                "division": "Operation",
             },
             {
                 "id": "3",
-                "cardId": "BLI-D885A1",
-                "name": "Simon Samosir",
+                "username": "Simon Samosir",
+                "division": "Operation",
             },
         ],
     },

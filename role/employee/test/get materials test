@@ -27,8 +27,8 @@ RESPONSE
 	"data": {
         "materialList": [
             {
-                "id": "1",
-                "material": "Private Victory",
+                "materialId": "1",
+                "materialName": "Private Victory",
                 "dateAvailable": "12 September 2020",
                 "dateClosed": "14 September 2020",
                 "timeLimit": "20",
@@ -36,8 +36,8 @@ RESPONSE
                 "status": "0",
             },
             {
-                "id": "2",
-                "material": "Public Victory",
+                "materialId": "2",
+                "materialName": "Public Victory",
                 "dateAvailable": "17 September 2020",
                 "dateClosed": "18 September 2020",
                 "timeLimit": "30",

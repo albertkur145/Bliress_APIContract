@@ -1,3 +1,5 @@
+#CLEAR
+
 NB: 
 - untuk mengubah akun pegawai tertentu pada sistem
 
@@ -10,7 +12,7 @@ Header
 url      : http://localhost:{port}/api/admin/employee
 type     : PUT
 params   : {
-    "id": 4,
+    "id": "4",
     "name": "Albert Kurniawan",
     "email": "albertkur@gmail.com",
     "phoneNumber": "087855261005",

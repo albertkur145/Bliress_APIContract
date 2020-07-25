@@ -1,3 +1,5 @@
+#CLEAR
+
 NB: 
 - untuk mengambil semua data training yang terdaftar di batch tertentu
 
@@ -22,67 +24,36 @@ RESPONSE
 	"data": {
         "trainingList": [
             {
-                "id": 1,
-                "training": 1,
+                "trainingId": '1',
+                "stage": '1',
                 "date": "15 September 2020",
-                "timeStart": "08.00",
-                "timeFinish": "16.00",
-                "trainer": "Rudi Santoso",
+                "startedAt": "08.00",
+                "endedAt": "16.00",
                 "location": "di Gedung Serbaguna, Ruang 315 C Sarana Jaya",
-                "materials": [
-                    {
-                        "id" : 1,
-                        "name": "Time Management",
-                        "link": "link download materi",
-                    },
-                    {
-                        "id" : 2,
-                        "name": "Private Victory",
-                        "link": "link download materi",
-                    },
-                ],
+                "trainerId": "1",
+                "trainerName": "Rudi Santoso",
             },
             {
-                "id": 2,
-                "training": 2,
+                "trainingId": '2',
+                "stage": '2',
                 "date": "27 September 2020",
-                "timeStart": "12.00",
-                "timeFinish": "15.00",
+                "startedAt": "12.00",
+                "endedAt": "15.00",
                 "trainer": "Alvin Wijaya",
                 "location": "di Gedung Ropoko, Ruang 54 Sarana Jaya",
-                "materials": [
-                    {
-                        "id" : 1,
-                        "name": "Time Management",
-                        "link": "link download materi",
-                    },
-                    {
-                        "id" : 2,
-                        "name": "Private Victory",
-                        "link": "link download materi",
-                    },
-                ],
+                "trainerId": "1",
+                "trainerName": "Rudi Santoso",
             },
             {
-                "id": 3,
-                "training": 3,
+                "trainingId": '3',
+                "stage": '3',
                 "date": "04 Oktober 2020",
-                "timeStart": "09.00",
-                "timeFinish": "18.00",
+                "startedAt": "09.00",
+                "endedAt": "18.00",
                 "trainer": "Renzvin",
                 "location": "di Hotel British, Lt. 42 Ruang Anggrek",
-                "materials": [
-                    {
-                        "id" : 1,
-                        "name": "Time Management",
-                        "link": "link download materi",
-                    },
-                    {
-                        "id" : 2,
-                        "name": "Private Victory",
-                        "link": "link download materi",
-                    },
-                ],
+                "trainerId": "1",
+                "trainerName": "Rudi Santoso",
             },
         ],
     },

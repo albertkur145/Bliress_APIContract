@@ -24,13 +24,13 @@ RESPONSE
         "materialList": [
             {
                 "id": "1",
-                "name": "Think Win Win",
-                "link": "link download",
+                "materialName": "Think Win Win",
+                "materialLink": "path folder project / kalo bisa masukkin filenya ke assets di folder src frontend aja",
             },
             {
                 "id": "2",
-                "name": "Time Management",
-                "link": "link download",
+                "materialName": "Time Management",
+                "materialLink": "path folder project / kalo bisa masukkin filenya ke assets di folder src frontend aja",
             },
         ],
     },

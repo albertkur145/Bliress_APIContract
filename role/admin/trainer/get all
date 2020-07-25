@@ -1,3 +1,5 @@
+#CLEAR
+
 NB: 
 - untuk mengambil semua data trainer yang terdaftar pada sistem
 
@@ -20,18 +22,18 @@ RESPONSE
 	"data": {
         "trainerList": [
             {
-                "id": 1,
-                "name": "Albert Kurniawan",
+                "userId": "1",
+                "username": "Albert Kurniawan",
                 "division": "Software Engineering",
             },
             {
-                "id": 2,
-                "name": "Muhammad Taufan Okka",
+                "userId": "2",
+                "username": "Muhammad Taufan Okka",
                 "division": "Software Engineering",
             },
             {
-                "id": 3,
-                "name": "Simon Samosir",
+                "userId": "3",
+                "username": "Simon Samosir",
                 "division": "Human Resources",
             },
         ],

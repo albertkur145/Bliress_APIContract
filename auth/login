@@ -10,21 +10,21 @@ Header
 
 url      : http://localhost:{port}/api/auth/login
 type     : POST
-params	 : {
-	"usermail": "albertkur@gmail.com",
-	"password": "123,
+params   : {
+    "usermail": "albertkur@gmail.com",
+    "password": "123,
 }
 
 
 RESPONSE
 --------
 {
-	"code": 200,
-	"status": "OK",
-	"data": {
-		"token": "eyJhbGciOiJIUzUxMiJ9.eyJyb2xlIjpbIlJPTEVfVVNFUiJdLCJzdWIi",
-		"message": "Success",
-		"user": {
+    "code": 200,
+    "status": "OK",
+    "data": {
+        "token": "eyJhbGciOiJIUzUxMiJ9.eyJyb2xlIjpbIlJPTEVfVVNFUiJdLCJzdWIi",
+        "message": "Success",
+        "user": {
             "userId": "046bb00e-2cee-4232-845a-5113f0e94b13",
             "username": "admin",
             "usermail": "admin@mail.com",
@@ -39,7 +39,7 @@ RESPONSE
             "birthDate": null,
             "registeredAt": null,
         },
-	},
-	"paging": null,
-	"errors": null,
+    },
+    "paging": null,
+    "errors": null,
 }

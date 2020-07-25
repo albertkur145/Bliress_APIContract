@@ -17,29 +17,24 @@ RESPONSE
 	"code": 200,
 	"status": "OK",
 	"data": {
-        "employee": {
-            "total": "86",
-            "employeeList": [
-                {
-                    "id": "1",
-                    "cardId": "BLI-1153AD",
-                    "name": "Rendi Orton",
-                    "status": "1",
-                },
-                {
-                    "id": "2",
-                    "cardId": "BLI-1153AD",
-                    "name": "Denny Laoli",
-                    "status": "0",
-                },
-                {
-                    "id": "3",
-                    "cardId": "BLI-1153AD",
-                    "name": "Diana Permata",
-                    "status": "0",
-                },
-            ],
-        },
+        "total": "86",
+        "employeeList": [
+            {
+                "userId": "1",
+                "username": "Rendi Orton",
+                "status": "1",
+            },
+            {
+                "userId": "2",
+                "username": "Denny Laoli",
+                "status": "0",
+            },
+            {
+                "userId": "3",
+                "username": "Diana Permata",
+                "status": "0",
+            },
+        ],
     },
 	"paging": null,
 	"errors": null,

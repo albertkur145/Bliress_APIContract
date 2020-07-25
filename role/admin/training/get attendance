@@ -24,21 +24,21 @@ RESPONSE
 	"data": {
         "employeeList": [
             {
-                "id": 1,
-                "cardId": "BLI-1153AD",
-                "name": "Albert Kurniawan",
+                "userId": 1,
+                "username": "Albert Kurniawan",
+                "division": "Operation",
                 "status": 1,
             },
             {
-                "id": 2,
-                "cardId": "BLI-1953OP",
-                "name": "Rio Gunawan",
+                "userId": 2,
+                "username": "Rio Gunawan",
+                "division": "Operation",
                 "status": 0,
             },
             {
-                "id": 3,
-                "cardId": "BLI-D885A1",
-                "name": "Maudy Ayunda",
+                "userId": 3,
+                "username": "Maudy Ayunda",
+                "division": "Operation",
                 "status": 1,
             },
         ],

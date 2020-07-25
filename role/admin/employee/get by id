@@ -1,3 +1,5 @@
+#CLEAR
+
 NB: 
 - untuk mengambil data pegawai tertentu
 
@@ -20,18 +22,15 @@ RESPONSE
 	"code": 200,
 	"status": "OK",
 	"data": {
-        "employee": {
-            "id": "1",
-            "cardId": "BLI-1154AD",
-            "name": "Albert Kurniawan",
-            "email": "albertkur@gmail.com",
-            "password": "123456",
-            "phoneNumber": "087855261005",
-            "division": "Sales Manager",
-            "birthdate": "15-02-2020",
-            "gender": "Pria",
-            "batchId": "JAN-2020",
-        },
+        "userId": "1",
+        "username": "Albert Kurniawan",
+        "usermail": "albertkur@gmail.com",
+        "password": "123456",
+        "phoneNumber": "087855261005",
+        "division": "Sales Manager",
+        "birthdate": "15-02-2020",
+        "gender": "Pria",
+        "batchId": "JAN-2020",
     },
 	"paging": null,
 	"errors": null,

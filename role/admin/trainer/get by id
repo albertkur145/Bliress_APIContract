@@ -1,3 +1,5 @@
+#CLEAR
+
 NB: 
 - untuk mengambil data trainer tertentu
 
@@ -20,13 +22,10 @@ RESPONSE
 	"code": 200,
 	"status": "OK",
 	"data": {
-        "trainer": {
-            "id": 1,
-            "name": "Albert Kurniawan",
-            "email": "albertkur@gmail.com",
-            "password": "123456",
-            "division": "Software Engineer",
-        },
+        "userId": "1",
+        "username": "Albert Kurniawan",
+        "usermail": "albertkur@gmail.com",
+        "division": "Software Engineer",
     },
 	"paging": null,
 	"errors": null,

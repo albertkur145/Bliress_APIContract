@@ -1,3 +1,5 @@
+#CLEAR
+
 NB: 
 - untuk mengambil data training tertentu.
 
@@ -21,15 +23,14 @@ RESPONSE
 	"code": 200,
 	"status": "OK",
 	"data": {
-        "training": {
-            "id": 1,
-            "training": 1,
-            "date": "2020-09-15",
-            "timeStart": "08:00",
-            "timeFinish": "16:00",
-            "trainerId": 1,
-            "location": "di Gedung Serbaguna, Ruang 315 C Sarana Jaya",
-        },
+        "stage": "1",
+        "trainingId": "1",
+        "date": "2020-09-15",
+        "startedAt": "08:00",
+        "endedAt": "16:00",
+        "location": "di Gedung Serbaguna, Ruang 315 C Sarana Jaya",
+        "trainerId": "1",
+        "trainerName": "Budi",
     },
 	"paging": null,
 	"errors": null,

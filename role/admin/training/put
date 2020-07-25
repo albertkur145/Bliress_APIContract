@@ -1,3 +1,5 @@
+#CLEAR
+
 NB: 
 - untuk mengubah training tertentu yang ada di batch tertentu
 
@@ -14,9 +16,10 @@ params   : {
     "training": "1",
     "date": "15-06-2020",
     "location": "Gedung Maybara, Lt 3 Ruang 215",
-    "timeStart": "2020-06-25T06:00:00Z",
-    "timeFinish": "2020-06-25T18:00:00Z",
+    "timeStart": "06:00",
+    "timeFinish": "18:00",
     "trainerId": "5c1e675f-0b91-49c8",
+    "trainerName": "Budi",
 }
 
 
