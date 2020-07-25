@@ -1,3 +1,5 @@
+#CLEAR
+
 NB: 
 - untuk mengubah test tertentu pada sebuah materi di batch dan training tertentu
 
@@ -10,69 +12,47 @@ Header
 url      : http://localhost:{port}/api/admin/test
 type     : PUT
 params   : {
-    "batchId": 202006,
+    "batchId": "JAN-2020",
     "training": "4",
-    "materialId": 2,
-    "test": {
-        "available": "2020-02-15",
-        "closed": "2020-02-18",
-        "timeLimit": 20,
-        "questions": [
-            {
-                "questionText": "Apa yang dimaksud dengan gerak bumi?",
-                "choices": [
-                    {
-                        "choice": "1",
-                        "answer": "Gaya yang bergerak di bumi",
-                    },
-                    {
-                        "choice": "2",
-                        "answer": "Gerak yang putus asa",
-                    },
-                    {
-                        "choice": "3",
-                        "answer": "Dunia yang bergerak",
-                    },
-                    {
-                        "choice": "4",
-                        "answer": "Semua salah",
-                    },
-                ],
-                "correctAnswer": "4",
-            },
-            {
-                "questionText": "Apa yang dikelola oleh Blibli?",
-                "choices": [
-                    {
-                        "choice": "1",
-                        "answer": "Makanan",
-                    },
-                    {
-                        "choice": "2",
-                        "answer": "Minuman",
-                    },
-                    {
-                        "choice": "3",
-                        "answer": "Snack",
-                    },
-                    {
-                        "choice": "4",
-                        "answer": "Daging hidup",
-                    },
-                ],
-                "correctAnswer": "1",
-            },
-        ],
-    },
+    "materialId": "2",
+    "materialName": "Think Win Win",
+    "available": "15-02-2020",
+    "closed": "18-02-2020",
+    "timeLimit": "20",
+    "questions": [
+        {
+            "questionText": "Apa yang dimaksud dengan gerak bumi?",
+            "choices": [
+                "Gaya yang bergerak di bumi",
+                "Gerak yang putus asa",
+                "Dunia yang bergerak",
+                "Semua salah",
+            ],
+            "correctAnswer": "3",
+        },
+        {
+            "questionText": "Apa yang dikelola oleh Blibli?",
+            "choices": [
+                "Makanan",
+                "Minuman",
+                "Snack",
+                "Daging hidup",
+            ],
+            "correctAnswer": "1",
+        },
+    ],
 }
 
 
 RESPONSE
 --------
 {
-	"code": 200,
-	"status": "OK",
-	"data": null,
+	"code": 202,
+	"status": "ACCEPTED",
+	"data": {
+        "status": "ACCEPTED",
+        "message": "Test has been updated"
+    },
     "paging": null,
     "errors": null,
 }

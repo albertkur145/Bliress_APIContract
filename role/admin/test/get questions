@@ -1,3 +1,5 @@
+#CLEAR
+
 NB: 
 - untuk mengambil soal-soal test di materi tertentu pada training dan batch tertentu.
 
@@ -10,9 +12,9 @@ Header
 url      : http://localhost:{port}/api/admin/test/preview
 type     : GET
 params   : {
-    "batchId": 202006,
+    "batchId": "JAN-2020",
     "training": "4",
-    "materialId": 1,
+    "materialId": "1",
 }
 
 
@@ -22,59 +24,26 @@ RESPONSE
 	"code": 200,
 	"status": "OK",
 	"data": {
-        "available": "2020-09-15",
-        "closed": "2020-09-18",
-        "timeLimit": 20,
-        "material": {
-            "id": 1,
-            "name": "Think Win Win",
-            "questions": [
-                {
-                    "questionText": "Sebagian pedagang pecel lele mengeluhkan harga cabe naik. Pak Rudi seorang pedagang pecel lele.",
-                    "choices": [
-                        {
-                            "choice": "1",
-                            "answer": "Pak Rudi pasti mengeluhkan harga cabe naik.",
-                        },
-                        {
-                            "choice": "2",
-                            "answer": "Pak Rudi tidak mengeluhkan harga cabe naik.",
-                        },
-                        {
-                            "choice": "3",
-                            "answer": "Harga cabe bukanlah keluhan Pak Rudi.",
-                        },
-                        {
-                            "choice": "4",
-                            "answer": "Pak Rudi mungkin ikut mengeluhkan harga cabe naik.",
-                        },
-                    ],
-                    "correctAnswer": "4",
-                },
-                {
-                    "questionText": "Semua pemain sepakbola yang berkebangsaan Itali berwajah tampan. David Beckham adalah pemain sepakbola berkebangsaan Inggris.",
-                    "choices": [
-                        {
-                            "choice": "1",
-                            "answer": "David Beckham bukanlah pemain sepakbola yang tampan.",
-                        },
-                        {
-                            "choice": "2",
-                            "answer": "David Beckham adalah pemain sepakbola yang tampan.",
-                        },
-                        {
-                            "choice": "3",
-                            "answer": "Meskipun bukan berkebangsaan Italia, David Beckham pasti berwajah tampan.",
-                        },
-                        {
-                            "choice": "4",
-                            "answer": "Tidak dapat ditarik kesimpulan.",
-                        },
-                    ],
-                    "correctAnswer": "4",
-                },
-            ],
-        },
+        "testId": "5ced6134-42db-4e6c-832b-26f06f30bd3e",
+        "batchId": "JAN-2020",
+        "stage": "1",
+        "materialId": "85c0262e-a04c-44bd-8b3d-90041c7f2a44",
+        "materialName": "Think Win Win",
+        "available": "15-09-2020",
+        "closed": "18-09-2020",
+        "timeLimit": "20",
+        "questions": [
+            {
+                "questionText": "Apa yang dikelola oleh Blibli?",
+                "choices": [
+                    "Makanan",
+                    "Minuman",
+                    "Daging hidup",
+                    "Snack"
+                ],
+                "correctAnswer": "1"
+            },
+        ],
     },
 	"paging": null,
 	"errors": null,

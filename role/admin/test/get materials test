@@ -10,7 +10,7 @@ Header
 url      : http://localhost:{port}/api/admin/test
 type     : GET
 params   : {
-    "batchId": 202006,
+    "batchId": "JAN-2020",
     "training": "4",
 }
 
@@ -21,30 +21,24 @@ RESPONSE
 	"code": 200,
 	"status": "OK",
 	"data": {
-        "batch" : {
-            id: 202006,
-            batch: "Juni",
-            year: 2020,
-        },
-        "training": "4",
-        "material": [
+        "materialList": [
             {
-                "id": 1,
-                "name": "Private Victory",
+                "materialId": "1",
+                "materialName": "Private Victory",
                 "available": "12 September 2020",
                 "closed": "15 September 2020",
                 "timeLimit": 20,
             },
             {
-                "id": 2,
-                "name": "Emotional Banking",
+                "materialId": "2",
+                "materialName": "Emotional Banking",
                 "available": "20 September 2020",
                 "closed": "22 September 2020",
                 "timeLimit": 60,
             },
             {
-                "id": 3,
-                "name": "Public Victory",
+                "materialId": "3",
+                "materialName": "Public Victory",
                 "available": "-",
                 "closed": "-",
                 "timeLimit": "-",
