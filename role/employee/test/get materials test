@@ -11,7 +11,7 @@ Header
 - Authorization : Bearer <token>
 
 
-url      : http://localhost:{port}/api/test/material
+url      : http://localhost:{port}/api/employee/test/material
 type     : GET
 params   : {
     "employeeId": "1",

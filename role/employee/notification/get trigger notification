@@ -7,7 +7,7 @@ Header
 - Authorization : Bearer <token>
 
 
-url      : http://localhost:{port}/api/notification/trigger
+url      : http://localhost:{port}/api/employee/notification/trigger
 type     : GET
 params   : {
     "employeeId": "1",

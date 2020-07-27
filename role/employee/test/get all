@@ -9,7 +9,7 @@ Header
 - Authorization : Bearer <token>
 
 
-url      : http://localhost:{port}/api/test
+url      : http://localhost:{port}/api/employee/test
 type     : GET
 params   : {
     "employeeId": "1",

@@ -1,6 +1,6 @@
 NB: 
 - untuk mengambil semua pegawai yang sudah/belum melakukan absensi di training tertentu
-- status 1 = sudah absen, 0 = belum absen
+- status true = sudah absen, false = belum absen
 
 
 Header
@@ -27,19 +27,19 @@ RESPONSE
                 "userId": 1,
                 "username": "Albert Kurniawan",
                 "division": "Operation",
-                "status": 1,
+                "status": true,
             },
             {
                 "userId": 2,
                 "username": "Rio Gunawan",
                 "division": "Operation",
-                "status": 0,
+                "status": false,
             },
             {
                 "userId": 3,
                 "username": "Maudy Ayunda",
                 "division": "Operation",
-                "status": 1,
+                "status": true,
             },
         ],
     },

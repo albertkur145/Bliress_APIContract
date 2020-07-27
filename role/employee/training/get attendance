@@ -7,7 +7,7 @@ Header
 - Authorization : Bearer <token>
 
 
-url      : http://localhost:{port}/api/training/attendance
+url      : http://localhost:{port}/api/employee/training/attendance
 type     : GET
 params   : {
     "employeeId": "1",

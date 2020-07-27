@@ -28,7 +28,6 @@ RESPONSE
         "batchId": "JAN-2020",
         "stage": "1",
         "materialId": "85c0262e-a04c-44bd-8b3d-90041c7f2a44",
-        "materialName": "Think Win Win",
         "available": "15-09-2020",
         "closed": "18-09-2020",
         "timeLimit": "20",
@@ -47,23 +46,4 @@ RESPONSE
     },
 	"paging": null,
 	"errors": null,
-}
-
-
-RESPONSE (Jika belum ada soal di dalam materi tersebut)
---------
-{
-    "code": 200,
-    "status": "OK",
-    "data": {
-        "available": null,
-        "closed": null,
-        "timeLimit": null,
-        "material": {
-            "id": 1,
-            "name": "Think Win Win",
-            "questions": null,
-        },
-    "paging": null,
-    "errors": null,
 }
